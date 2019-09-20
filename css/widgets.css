@@ -1,0 +1,1712 @@
+/*
+Default style for List Posts widget - copy, rename, and edit for different styles
+*/
+.listPosts {
+  text-align: left;
+  padding: 15px 0;
+}
+
+.listPosts a:link,
+.listPosts a:visited,
+.listPosts a:active {
+  color: #000;
+  text-decoration: none;
+}
+
+.listPosts a:hover {
+  text-decoration: underline;
+}
+
+.listPosts .widgettitle {  /*Selects widget title*/
+  display: none;
+}
+
+.listPosts .widgetSubtitle {
+  display: none;
+}
+
+.listPosts .widgetItemContainer {
+  margin-bottom: 25px;
+}
+
+.listPosts .widgetThumbnail {
+  width: 100%;
+  margin: 0 0 15px 0;
+}
+
+.listPosts .widgetThumbnail img {
+  width: 100%;
+}
+
+.listPosts .widgetLeftFloatedThumbnail {
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+}
+
+.listPosts .widgetRightFloatedThumbnail {
+  display: inline-block;
+  float: right;
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  .listPosts .widgetLeftFloatedThumbnail img,
+  .listPosts .widgetRightFloatedThumbnail img {
+    max-width: 100% !important;
+  }
+
+  .listPosts .widgetLeftFloatedThumbnail,
+  .listPosts .widgetRightFloatedThumbnail {
+    width: 100%;
+  }
+}
+
+.listPosts .widgetHeadline {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 5px 0;
+}
+
+.listPosts .widgetExcerpt {
+  margin: 0 0 15px 0;
+}
+
+.listPosts .widgetContent {
+}
+
+.listPosts .widgetButtonContainer {
+
+}
+
+.listPosts .widgetButton {
+  margin-left: 0;
+}
+
+.listPosts .widgetColumnMargin {
+  padding: 0 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .listPosts .widgetColumnMargin {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto 15px auto;
+    padding: 0;
+  }
+}
+/*
+Paricipants share
+Special for coaching program participants
+*/
+.participantListPosts {
+  text-align: left;
+  padding: 15px 0;
+}
+
+.participantListPosts a:link,
+.participantListPosts a:visited,
+.participantListPosts a:active {
+  color: #000;
+  text-decoration: none;
+}
+
+.participantListPosts a:hover {
+  text-decoration: underline;
+}
+
+.participantListPosts .widgettitle {  /*Selects widget title*/
+  display: none;
+}
+
+.participantListPosts .widgetSubtitle {
+  display: none;
+}
+
+.participantListPosts .widgetItemContainer {
+  margin-bottom: 25px;
+}
+
+.participantListPosts .widgetThumbnail {
+  width: 100%;
+  margin: 0 0 15px 0;
+}
+
+.participantListPosts .widgetThumbnail img {
+  width: 100%;
+}
+
+.participantListPosts .widgetLeftFloatedThumbnail {
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+}
+
+.participantListPosts .widgetRightFloatedThumbnail {
+  display: inline-block;
+  float: right;
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  .participantListPosts .widgetLeftFloatedThumbnail img,
+  .participantListPosts .widgetRightFloatedThumbnail img {
+    max-width: 100% !important;
+  }
+
+  .participantListPosts .widgetLeftFloatedThumbnail,
+  .participantListPosts .widgetRightFloatedThumbnail {
+    width: 100%;
+  }
+}
+
+.participantListPosts .widgetHeadline {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 5px 0;
+}
+
+.participantListPosts .widgetExcerpt {
+  margin: 0 0 15px 0;
+}
+
+.participantListPosts .widgetContent {
+}
+
+.participantListPosts .widgetButtonContainer {
+
+}
+
+.participantListPosts .widgetButton {
+  margin-left: 0;
+}
+
+.participantListPosts .widgetColumnMargin {
+  padding: 0 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .participantListPosts .widgetColumnMargin {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto 15px auto;
+    padding: 0;
+  }
+}
+
+/* For funders
+Specialized version of defualt*/
+.fundersListPosts {
+  text-align: left;
+  padding: 15px 0;
+}
+
+.fundersListPosts a:link,
+.fundersListPosts a:visited,
+.fundersListPosts a:active {
+  color: #af2000;
+  text-decoration: none;
+}
+
+.fundersListPosts a:hover {
+  text-decoration: underline;
+}
+
+.fundersListPosts .widgettitle {  /*Selects widget title*/
+  display: none;
+}
+
+.fundersListPosts .widgetSubtitle {
+  display: none;
+}
+
+.fundersListPosts .widgetItemContainer {
+  margin-bottom: 25px;
+}
+
+.fundersListPosts .widgetThumbnail {
+  width: 100%;
+  margin: 0 0 15px 0;
+}
+
+.fundersListPosts .widgetThumbnail img {
+  width: 100%;
+}
+
+.fundersListPosts .widgetLeftFloatedThumbnail {
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+}
+
+.fundersListPosts .widgetRightFloatedThumbnail {
+  display: inline-block;
+  float: right;
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  .fundersListPosts .widgetLeftFloatedThumbnail img,
+  .fundersListPosts .widgetRightFloatedThumbnail img {
+    max-width: 100% !important;
+  }
+
+  .fundersListPosts .widgetLeftFloatedThumbnail,
+  .fundersListPosts .widgetRightFloatedThumbnail {
+    width: 100%;
+  }
+}
+
+.fundersListPosts .widgetHeadline {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 5px 0;
+  color: #D96E1D;
+}
+
+.fundersListPosts .widgetExcerpt {
+  margin: 0 0 15px 0;
+}
+
+.fundersListPosts .widgetContent {
+}
+
+.fundersListPosts .widgetButtonContainer {
+
+}
+
+.fundersListPosts .widgetButton {
+  margin-left: 0;
+}
+
+.fundersListPosts .widgetColumnMargin {
+  padding: 0 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .fundersListPosts .widgetColumnMargin {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto 15px auto;
+    padding: 0;
+  }
+}
+
+/*
+Tools style
+Specialized version of default listPosts style
+*/
+.toolsListPosts {
+  text-align: center;
+  padding: 15px 0;
+  color: #fff;
+}
+
+.toolsListPosts a:link,
+.toolsListPosts a:visited,
+.toolsListPosts a:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+.toolsListPosts a:hover {
+  text-decoration: underline;
+}
+
+.toolsListPosts .widgettitle {  /*Selects widget title*/
+  text-align: center;
+}
+
+.toolsListPosts .widgetSubtitle {
+  padding: 5px 5px 5px 0;
+  margin: 0 0 15px 0;
+}
+
+.toolsListPosts .widgetItemContainer {
+
+}
+
+.toolsListPosts .widgetThumbnail {
+  width: 100%;
+  margin: 0 0 15px 0;
+}
+
+.toolsListPosts .widgetThumbnail img {
+  width: 100%;
+  max-width: 250px;
+}
+
+.toolsListPosts .widgetLeftFloatedThumbnail {
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+}
+
+.toolsListPosts .widgetRightFloatedThumbnail {
+  display: inline-block;
+  float: right;
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  .toolsListPosts .widgetLeftFloatedThumbnail img,
+  .toolsListPosts .widgetRightFloatedThumbnail img {
+    max-width: 100% !important;
+  }
+
+  .toolsListPosts .widgetLeftFloatedThumbnail,
+  .toolsListPosts .widgetRightFloatedThumbnail {
+    width: 100%;
+  }
+}
+
+.toolsListPosts .widgetHeadline {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 5px 0;
+  text-transform: uppercase;
+}
+
+.toolsListPosts .widgetExcerpt {
+  margin: 0 0 15px 0;
+}
+
+.toolsListPosts .widgetContent {
+}
+
+.toolsListPosts .widgetButtonContainer {
+
+}
+
+.toolsListPosts .widgetButton {
+  margin-left: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .toolsListPosts {
+    text-align: center;
+    padding: 15px 50px;
+  }
+
+  .toolsListPosts .widgetThumbnail img {
+    width: 100%;
+    max-width: 175px;
+  }
+  .toolsListPosts .widgetColumnMargin {
+  }
+}
+
+/*
+News style
+Specialized version of default listPosts style
+*/
+.newsListPosts {
+  padding: 15px 0;
+  text-align: center;
+}
+
+.newsListPosts a:link,
+.newsListPosts a:visited,
+.newsListPosts a:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+.newsListPosts a:hover {
+  text-decoration: underline;
+}
+
+.newsListPosts .widgettitle {  /*Selects widget title*/
+  display: none;
+}
+
+.newsListPosts .widgetSubtitle {
+  display: none;
+}
+
+.newsListPosts .widgetItemContainer {
+
+}
+
+.newsListPosts .widgetThumbnail {
+  width: 100%;
+  margin: 0 0 15px 0;
+}
+
+.newsListPosts .widgetThumbnail img {
+  width: 100%;
+}
+
+.newsListPosts .widgetLeftFloatedThumbnail {
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+}
+
+.newsListPosts .widgetRightFloatedThumbnail {
+  display: inline-block;
+  float: right;
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  .newsListPosts .widgetLeftFloatedThumbnail img,
+  .newsListPosts .widgetRightFloatedThumbnail img {
+    max-width: 100% !important;
+  }
+
+  .newsListPosts .widgetLeftFloatedThumbnail,
+  .newsListPosts .widgetRightFloatedThumbnail {
+    width: 100%;
+  }
+}
+
+.newsListPosts .widgetHeadline {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.newsListPosts .widgetExcerpt {
+  margin: 0 0 15px 0;
+}
+
+.newsListPosts .widgetContent {
+}
+
+.newsListPosts .widgetButtonContainer {
+
+}
+
+.newsListPosts .widgetButton {
+  margin-left: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .newsListPosts {
+    padding: 15px 80px;
+  }
+  .newsListPosts .widgetColumnMargin {
+  }
+}
+
+/*
+Impact style
+Specialized version of default listPosts style
+*/
+.impactListPosts {
+  text-align: center;
+  padding: 15px 0;
+  color: #fff;
+}
+
+.impactListPosts a:link,
+.impactListPosts a:visited,
+.impactListPosts a:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+.impactListPosts a:hover {
+  text-decoration: underline;
+}
+
+.impactListPosts .widgettitle {  /*Selects widget title*/
+  text-align: left;
+  padding: 5px 5px 5px 0;
+}
+
+.impactListPosts .widgetSubtitle {
+  text-align: left;
+  padding: 5px 5px 5px 0;
+  margin: 0 0 15px 0;
+}
+
+.impactListPosts .widgetItemContainer {
+
+}
+
+.impactListPosts .widgetThumbnail {
+  width: 100%;
+  margin: 0 0 15px 0;
+}
+
+.impactListPosts .widgetThumbnail img {
+  width: 100%;
+  max-width: 250px;
+}
+
+.impactListPosts .widgetLeftFloatedThumbnail {
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+}
+
+.impactListPosts .widgetRightFloatedThumbnail {
+  display: inline-block;
+  float: right;
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  .impactListPosts .widgetLeftFloatedThumbnail img,
+  .impactListPosts .widgetRightFloatedThumbnail img {
+    max-width: 100% !important;
+  }
+
+  .impactListPosts .widgetLeftFloatedThumbnail,
+  .impactListPosts .widgetRightFloatedThumbnail {
+    width: 100%;
+  }
+}
+
+.impactListPosts .widgetHeadline {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 5px 0;
+  text-transform: uppercase;
+}
+
+.impactListPosts .widgetExcerpt {
+  margin: 0 0 15px 0;
+}
+
+.impactListPosts .widgetContent {
+}
+
+.impactListPosts .widgetButtonContainer {
+
+}
+
+.impactListPosts .widgetButton {
+  margin-left: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .impactListPosts {
+    padding: 15px 50px;
+  }
+
+  .impactListPosts .widgetThumbnail img {
+    width: 100%;
+    max-width: 250px;
+  }
+  .impactListPosts .widgetColumnMargin {
+  }
+}
+
+/*
+Brochure style
+Specialized version of default listPosts style
+*/
+.brochureListPosts {
+  text-align: left;
+  padding: 15px 0;
+}
+
+.brochureListPosts a:link,
+.brochureListPosts a:visited,
+.brochureListPosts a:active {
+  color: #000;
+  text-decoration: none;
+}
+
+.brochureListPosts a:hover {
+  text-decoration: underline;
+}
+
+.brochureListPosts .widgettitle {  /*Selects widget title*/
+  display: none;
+}
+
+.brochureListPosts .widgetSubtitle {
+  display: none;
+}
+
+.brochureListPosts .widgetItemContainer {
+  border: 2px solid #ccc;
+  margin-top: 15px;
+  overflow: hidden;
+}
+
+.brochureListPosts .widgetThumbnail {
+  width: 100%;
+  margin: 0 0 15px 0;
+}
+
+.brochureListPosts .widgetThumbnail img {
+  width: 100%;
+}
+
+.brochureListPosts .widgetLeftFloatedThumbnail {
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+}
+
+.brochureListPosts .widgetRightFloatedThumbnail {
+  display: inline-block;
+  float: right;
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  .brochureListPosts .widgetLeftFloatedThumbnail img,
+  .brochureListPosts .widgetRightFloatedThumbnail img {
+    max-width: 100% !important;
+  }
+
+  .brochureListPosts .widgetLeftFloatedThumbnail,
+  .brochureListPosts .widgetRightFloatedThumbnail {
+    width: 100%;
+  }
+}
+
+.brochureListPosts .widgetHeadline {
+  background-color: #9c0100;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 15px;
+  border-top: 5px solid #ffc016;
+}
+
+.brochureListPosts .widgetExcerpt {
+  background-color: #b52b11;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 15px;
+
+}
+
+.brochureListPosts .widgetContent {
+  margin: 15px;
+}
+
+.brochureListPosts .widgetContent a:link,
+.brochureListPosts .widgetContent a:visited,
+.brochureListPosts .widgetContent a:active,
+.brochureListPosts .widgetContent a:hover  {
+  color: #af2000;
+}
+
+.brochureListPosts .widgetContent img {
+  width: 140px;
+  height: auto;
+}
+
+.brochureListPosts .widgetButtonContainer {
+
+}
+
+.brochureListPosts .widgetButton {
+  margin-left: 0;
+}
+
+.brochureListPosts .widgetColumnMargin {
+  padding: 0 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .brochureListPosts .widgetColumnMargin {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto 15px auto;
+    padding: 0;
+  }
+}
+
+/*
+Brochure style for Digitaal Campaigning Certification Program
+Specialized version of default listPosts style
+*/
+.campaignCertBrochureListPosts {
+  text-align: left;
+  padding: 15px 0;
+}
+
+.campaignCertBrochureListPosts a:link,
+.campaignCertBrochureListPosts a:visited,
+.campaignCertBrochureListPosts a:active {
+  color: #000;
+  text-decoration: none;
+}
+
+.campaignCertBrochureListPosts a:hover {
+  text-decoration: underline;
+}
+
+.campaignCertBrochureListPosts .widgettitle {  /*Selects widget title*/
+  font-family: "Roboto",sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.campaignCertBrochureListPosts .widgetSubtitle {
+  display: none;
+}
+
+.campaignCertBrochureListPosts .widgetItemContainer {
+  border: 2px solid #ccc;
+  margin-top: 15px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.campaignCertBrochureListPosts .widgetThumbnail {
+  width: 100%;
+  margin: 0 0 15px 0;
+}
+
+.campaignCertBrochureListPosts .widgetThumbnail img {
+  width: 100%;
+}
+
+.campaignCertBrochureListPosts .widgetLeftFloatedThumbnail {
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+}
+
+.campaignCertBrochureListPosts .widgetRightFloatedThumbnail {
+  display: inline-block;
+  float: right;
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  .campaignCertBrochureListPosts .widgetLeftFloatedThumbnail img,
+  .campaignCertBrochureListPosts .widgetRightFloatedThumbnail img {
+    max-width: 100% !important;
+  }
+
+  .campaignCertBrochureListPosts .widgetLeftFloatedThumbnail,
+  .campaignCertBrochureListPosts .widgetRightFloatedThumbnail {
+    width: 100%;
+  }
+}
+
+.campaignCertBrochureListPosts .widgetHeadline {
+  background-color: #9c0100;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 5px 15px;
+  border-top: 5px solid #ffc016;
+  font-family: "Montserrat",sans-serif;
+}
+
+.campaignCertBrochureListPosts .widgetExcerpt {
+  background-color: #b52b11;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 15px;
+
+}
+
+.campaignCertBrochureListPosts .widgetContent {
+  margin: 15px;
+  font-size: 16px;
+  font-family: "Montserrat",sans-serif;
+}
+
+.campaignCertBrochureListPosts .widgetContent a:link,
+.campaignCertBrochureListPosts .widgetContent a:visited,
+.campaignCertBrochureListPosts .widgetContent a:active,
+.campaignCertBrochureListPosts .widgetContent a:hover  {
+  color: #af2000;
+}
+
+.campaignCertBrochureListPosts .widgetContent img {
+  width: 140px;
+  height: auto;
+}
+
+.campaignCertBrochureListPosts .widgetButtonContainer {
+
+}
+
+.campaignCertBrochureListPosts .widgetButton {
+  margin-left: 0;
+}
+
+.campaignCertBrochureListPosts .widgetColumnMargin {
+  padding: 0 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .campaignCertBrochureListPosts .widgetColumnMargin {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 15px auto;
+    padding: 0;
+  }
+}
+
+/*
+Brochure style for Digitaal Campaigning Certification Program
+Specialized version of default listPosts style
+*/
+.dccpDetailsBrochureListPosts {
+  text-align: left;
+  padding: 15px 0;
+}
+
+.dccpDetailsBrochureListPosts a:link,
+.dccpDetailsBrochureListPosts a:visited,
+.dccpDetailsBrochureListPosts a:active {
+  color: #000;
+  text-decoration: none;
+}
+
+.dccpDetailsBrochureListPosts a:hover {
+  text-decoration: underline;
+}
+
+.dccpDetailsBrochureListPosts .widgettitle {  /*Selects widget title*/
+  display: none;
+}
+
+.dccpDetailsBrochureListPosts .widgetSubtitle {
+  display: none;
+}
+
+.dccpDetailsBrochureListPosts .widgetItemContainer {
+  width: 95%;
+  background:rgb(255,255,255);
+  background: transparent\9;
+  background:rgba(255,255,255,0.7);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFFB3,endColorstr=#FFFFFFB3);
+  zoom: 1;
+  border: 4px solid #ab3210;
+  margin-top: 40px;
+  padding: 0;
+}
+
+.dccpDetailsBrochureListPosts .widgetThumbnail {
+  width: 100%;
+  margin: 0 0 15px 0;
+}
+
+.dccpDetailsBrochureListPosts .widgetThumbnail img {
+  width: 100%;
+}
+
+.dccpDetailsBrochureListPosts .widgetLeftFloatedThumbnail {
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+}
+
+.dccpDetailsBrochureListPosts .widgetRightFloatedThumbnail {
+  display: inline-block;
+  float: right;
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  .dccpDetailsBrochureListPosts .widgetLeftFloatedThumbnail img,
+  .dccpDetailsBrochureListPosts .widgetRightFloatedThumbnail img {
+    max-width: 100% !important;
+  }
+
+  .dccpDetailsBrochureListPosts .widgetLeftFloatedThumbnail,
+  .dccpDetailsBrochureListPosts .widgetRightFloatedThumbnail {
+    width: 100%;
+  }
+}
+
+.dccpDetailsBrochureListPosts .widgetHeadline {
+  background-color: #ef7123;
+  color: #fff;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.dccpDetailsBrochureListPosts .widgetExcerpt {
+  background-color: #b52b11;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 15px;
+
+}
+
+.dccpDetailsBrochureListPosts .widgetContent {
+  margin: 15px;
+}
+
+.dccpDetailsBrochureListPosts .widgetContent a:link,
+.dccpDetailsBrochureListPosts .widgetContent a:visited,
+.dccpDetailsBrochureListPosts .widgetContent a:active,
+.dccpDetailsBrochureListPosts .widgetContent a:hover  {
+  color: #af2000;
+}
+
+.dccpDetailsBrochureListPosts .widgetContent img {
+  width: 140px;
+  height: auto;
+}
+
+.dccpDetailsBrochureListPosts .widgetButtonContainer {
+
+}
+
+.dccpDetailsBrochureListPosts .widgetButton {
+  margin-left: 0;
+}
+
+.dccpDetailsBrochureListPosts .widgetColumnMargin {
+  padding: 0 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .dccpDetailsBrochureListPosts .widgetColumnMargin {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto 15px auto;
+    padding: 0;
+  }
+}
+
+/*
+Box style
+Specialized version of default listPosts style with a border box
+*/
+.boxPosts {
+  text-align: left;
+  padding: 15px 0;
+}
+
+.boxPosts a:link,
+.boxPosts a:visited,
+.boxPosts a:active {
+  color: #000;
+  text-decoration: none;
+}
+
+.boxPosts a:hover {
+  text-decoration: underline;
+}
+
+.boxPosts .widgettitle {  /*Selects widget title*/
+  display: none;
+}
+
+.boxPosts .widgetSubtitle {
+  display: none;
+}
+
+.boxPosts .widgetItemContainer {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin-top: 15px;
+  overflow: hidden;
+}
+
+.boxPosts .widgetThumbnail {
+  width: 100%;
+  margin: 0 0 15px 0;
+}
+
+.boxPosts .widgetThumbnail img {
+  width: 100%;
+}
+
+.boxPosts .widgetLeftFloatedThumbnail {
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+}
+
+.boxPosts .widgetRightFloatedThumbnail {
+  display: inline-block;
+  float: right;
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  .boxPosts .widgetLeftFloatedThumbnail img,
+  .boxPosts .widgetRightFloatedThumbnail img {
+    max-width: 100% !important;
+  }
+
+  .boxPosts .widgetLeftFloatedThumbnail,
+  .boxPosts .widgetRightFloatedThumbnail {
+    width: 100%;
+  }
+}
+
+.boxPosts .widgetHeadline {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 15px 5px 15px;
+  text-transform: uppercase;
+}
+
+.boxPosts .widgetExcerpt {
+  padding: 5px 15px;
+
+}
+
+.boxPosts .widgetContent {
+  margin: 15px;
+}
+
+.boxPosts .widgetContent img {
+}
+
+.boxPosts .widgetButtonContainer {
+  text-align: center;
+}
+
+.boxPosts .widgetButton {
+  margin-bottom: 15px;
+}
+
+.boxPosts .widgetColumnMargin {
+  padding: 0 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .boxPosts .widgetColumnMargin {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto 15px auto;
+    padding: 0;
+  }
+}
+
+/*
+Testminoials style
+Specialized version of the testimonialsBoxPosts style for testimonials
+*/
+.testimonialsBoxPosts {
+  text-align: left;
+  padding: 15px 0;
+}
+
+.testimonialsBoxPosts a:link,
+.testimonialsBoxPosts a:visited,
+.testimonialsBoxPosts a:active {
+  color: #af2000;
+  text-decoration: none;
+}
+
+.testimonialsBoxPosts a:hover {
+  text-decoration: underline;
+}
+
+.testimonialsBoxPosts .widgettitle {  /*Selects widget title*/
+  display: none;
+}
+
+.testimonialsBoxPosts .widgetSubtitle {
+  display: none;
+}
+
+.testimonialsBoxPosts .widgetItemContainer {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin-top: 15px;
+  overflow: hidden;
+}
+
+.testimonialsBoxPosts .widgetThumbnail {
+  width: 100%;
+  margin: 0 0 15px 0;
+}
+
+.testimonialsBoxPosts .widgetThumbnail img {
+  width: 100%;
+}
+
+.testimonialsBoxPosts .widgetLeftFloatedThumbnail {
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+}
+
+.testimonialsBoxPosts .widgetRightFloatedThumbnail {
+  display: inline-block;
+  float: right;
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  .testimonialsBoxPosts .widgetLeftFloatedThumbnail img,
+  .testimonialsBoxPosts .widgetRightFloatedThumbnail img {
+    max-width: 100% !important;
+  }
+
+  .testimonialsBoxPosts .widgetLeftFloatedThumbnail,
+  .testimonialsBoxPosts .widgetRightFloatedThumbnail {
+    width: 100%;
+  }
+}
+
+.testimonialsBoxPosts .widgetHeadline {
+  color: #af2000;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 5px 15px;
+  text-align: right;
+}
+
+.testimonialsBoxPosts .widgetExcerpt {
+  padding: 5px 15px;
+
+}
+
+.testimonialsBoxPosts .widgetContent {
+  margin: 15px;
+}
+
+.testimonialsBoxPosts .widgetContent img {
+}
+
+.testimonialsBoxPosts .widgetButtonContainer {
+  text-align: center;
+}
+
+.testimonialsBoxPosts .widgetButton {
+  margin-bottom: 15px;
+}
+
+.testimonialsBoxPosts .widgetColumnMargin {
+  padding: 0 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .testimonialsBoxPosts .widgetColumnMargin {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto 15px auto;
+    padding: 0;
+  }
+}
+
+/***************************************************
+Scroller classes
+***************************************************/
+.contentScroller {
+  width: 100%;
+}
+
+.contentScroller .widgettitle {
+  display: none;
+}
+
+.contentScroller .widgetHeader {
+  text-align: left;
+  color: #fff;
+  padding: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  .contentScroller .widgetHeader {
+    padding: 5px 25px;
+  }
+}
+
+.contentScroller .widgetHeader .widgetHeadline {
+  font-family: "Permanent Marker", cursive;
+  font-size: 38px;
+  font-weight: bold;
+  margin-top: 5px;
+  display: inline;
+  padding-right: 15px;
+}
+
+.contentScroller .widgetHeader .widgetExcerpt {
+  display: inline;
+  font-size: 24px;
+}
+
+.contentScroller .widgetBody {
+  color: #fff;
+  padding: 5px 0px 15px 0px;
+}
+
+.contentScroller .widgetScrollArea {
+  max-height: 320px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 0px 15px;
+}
+
+.contentScroller .widgetSidePaneLeft {
+  background-image: url('/wp-content/uploads/2018/05/testimonials-left.jpg');
+  min-height: 320px;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contentScroller .widgetSidePaneRight {
+  background-image: url('/wp-content/uploads/2018/05/right.jpg');
+  min-height: 320px;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 767px) {
+  .contentScroller .widgetSidePaneLeft,
+  .contentScroller .widgetSidePaneRight {
+      display: none;
+  }
+}
+
+.contentScroller .widgetScrollArea::-webkit-scrollbar {
+    width: 15px;
+}
+
+.contentScroller .widgetScrollArea::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 15px;
+}
+
+.contentScroller .widgetScrollArea::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 12px;
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+/*************************
+Slider styles
+***********************/
+
+.contentSlider {
+  width: 100%;
+  padding: 15px;
+}
+
+.contentSlider .widgettitle {
+  text-align: left;
+  color: #af2000;
+}
+
+.contentSlider .widgetContainer {
+}
+
+.contentSlider .widgetContentContainer {
+}
+
+.contentSlider .widgetSliderArea {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.contentSlider .widgetSliderArea {
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+  overflow: hidden;
+}
+
+.contentSlider .widgetSliderArear::-webkit-scrollbar {
+  display: none;
+}
+
+.contentSlider .widgetControlTable {
+}
+
+.contentSlider .widgetControlContainerLeft {
+  float: left;
+  padding: 100px 15px 0 0;
+}
+
+.contentSlider .widgetControlContainerRight {
+  float: right;
+  padding: 100px 0 0 15px;
+}
+
+.contentSlider .widgetControlContainerLeft img {
+  max-width: 25px;
+}
+
+.contentSlider .widgetControlContainerRight img {
+  max-width: 25px;
+}
+
+.contentSlider .widgetControlIcon {
+  color: #000;
+  padding: 5px;
+  font-size: 48px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contentSlider .widgetItemWrapper {
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+margin-bottom: 7px!important;
+ }
+
+ .contentSlider .widgetItem {
+   padding: 15px;
+   margin: 5px;
+   background-color: #fff;
+ }
+
+ .contentSlider .widgetHeadline {
+   text-align: right;
+   font-weight: bold;
+ }
+
+ .contentSlider .widgetHeadline::before {
+   content: '- ';
+ }
+
+ .contentSlider .widgetButton {
+   text-transform: uppercase;
+   font-weight: 600;
+   color: #fff;
+ }
+
+ .contentSlider .widgetButton a:link,
+ .contentSlider .widgetButton a:active,
+ .contentSlider .widgetButton a:visited,
+ .contentSlider .widgetButton a:hover {
+   color: #fff;
+   text-decoration: none;
+ }
+
+ @media only screen and (min-width: 768px) {
+   .contentSlider .widgetItemWrapper {
+     width: 33.33%;
+     
+   }
+ }
+
+/*****************************
+Small Top styles
+*****************************/
+.smallTop {
+  background-image: url('../media/branding-background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center -175px;
+  background-repeat: no-repeat;
+  padding-top: 60px; /*To account for navbar*/
+}
+
+.smallTopContent {
+  color: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.smallTopHeadlineContainer {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.smallTopImageContainer {
+  margin-bottom: 15px;
+}
+
+.smallTopBrandingImg {
+  border: 3px solid #fff;
+  border-radius: 3px;
+}
+
+.smallTopCodeContainer {
+
+}
+
+@media only screen and (min-width: 768px) {
+  .smallTop {
+  }
+
+  .smallTopContent {
+    display: table;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px;
+  }
+
+  .smallTopHeadlineContainer {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 38px;
+  }
+
+  .smallTopImageContainer {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .smallTopBrandingImg {
+  }
+
+  .smallTopCodeContainer {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+/**************************
+Big Top style
+***************************/
+/*Parallax image*/
+.parallax {
+  background-image: url('../media/branding-background.jpg');
+  min-height: 600px;
+  height: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: table;
+  width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  .parallax {
+    min-height: calc(100vh - 60px);
+    background-position: center;
+  }
+}
+
+.parallaxContent {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+@media only screen and (min-width: 768px) {
+  .parallaxContent {
+  }
+}
+
+.bigTopHeadline  {
+  font-family: "Permanent Marker", cursive;
+  font-size: 38px;
+  line-height: 25px;
+  margin-bottom: 25px;
+  margin-top: 60px;
+}
+
+@media only screen and (min-width: 768px) {
+  .bigTopHeadline  {
+    font-size: 74px;
+    line-height: 65px;
+  }
+}
+
+.bigTopContainer {
+}
+
+.bigTopContent {
+}
+
+.bigTopBrandingImgTextContainer {
+  margin-bottom: 15px;
+}
+
+.bigTopCustomCodeContainer {
+  with: 100%;
+}
+
+.bigTopBrandingImg {
+  border: 3px solid #fff;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.bigTopSubhead {
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.bigTopSubSubhead {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.bigTopMessage {
+  line-height: 19px;
+}
+
+.bigTopBrandingTextContainer {
+}
+
+.bigTopBrandingImgContainer {
+  margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .bigTopContainer {
+    margin-left: 65px;
+  }
+
+  .bigTopBrandingImgTextContainer {
+      display: table;
+      border-collapse: separate;
+      border-spacing: 10px;
+  }
+  .bigTopBrandingImgImgContainer {
+      display: table-cell;
+      vertical-align: middle;
+  }
+  .bigTopBrandingTextContainer {
+      display: table-cell;
+      vertical-align: middle;
+  }
+
+  .bigTopCustomCodeContainer {
+    display: table;
+    height: 100%;
+  }
+
+  .bigTopCustomCode {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .bigTopCustomCodeMargin {
+  }
+
+  .bigTopBrandingImgContainer {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+}
+
+.bigTopTextBox {
+  background-color: #e07623;
+  padding: 5px 15px;
+}
+
+/*
+Default style for List Products widget - copy, rename, and edit for different styles
+*/
+.listProducts {
+  text-align: left;
+  padding: 15px 0;
+}
+
+.listProducts a:link,
+.listProducts a:visited,
+.listProducts a:active {
+  color: #000;
+  text-decoration: none;
+}
+
+.listProducts a:hover {
+  text-decoration: underline;
+}
+
+.listProducts .widgettitle {  /*Selects widget title*/
+  display: none;
+}
+
+.listProducts .widgetSubtitle {
+  display: none;
+}
+
+.listProducts .productDropdown {
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+
+.listProducts .woocommerce-loop-product__title {
+  color: #9c0100;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.listProducts .widgetColumnMargin {
+  padding: 0 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .listProducts .widgetColumnMargin {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto 15px auto;
+    padding: 0;
+  }
+
+  .listProducts .productDropdown {
+    max-width: 250px;
+  }
+}
+
+/*
+  Anduril Parallax Image
+  Default style
+*/
+
+.parallaxImage {
+  margin-top: -30px;
+  padding: 15px;
+  color: #fff;
+}
+
+.parallaxImage .widgetHeadline {
+  color: #fff;
+  font-family: "Permanent Marker",cursive;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.parallaxImage .widgetSubheadline {
+  color: #fff;
+  font-family: "Roboto",sans-serif;
+  font-size: 28px !important;
+  line-height: 28px !important;
+  margin-top: 25px;
+  font-weight: 650;
+}
+
+.parallaxImage .widgetLinkText {
+  color: #fff;
+  font-family: "Roboto",sans-serif;
+  font-size: 18px !important;
+  line-height: 18px !important;
+  margin-top: 15px;
+}
+
+.parallaxImage a:link,
+.parallaxImage a:active,
+.parallaxImage a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.parallaxImage a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 768px) {
+  .parallaxImage {
+    padding: 20px 125px 15px 125px;
+  }
+  .parallaxImage .widgetHeadline {
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .parallaxImage .widgetSubheadline {
+
+  }
+}

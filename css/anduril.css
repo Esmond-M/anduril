@@ -1,0 +1,621 @@
+/*Elements*/
+html {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto",sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+a:link,
+a:active,
+a:visited {
+  color: #af2000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 5px 20px;
+  font-size: 14px;
+}
+
+footer img {
+  max-width: 35px;
+}
+
+footer a:link,
+footer a:hover,
+footer a:active,
+footer a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .footerContact > span {
+  display: block;
+  margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  footer {
+    text-align: left;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer a.hover {
+    text-decoration: underline;
+  }
+
+  footer .footerContact > span {
+    display: inline;
+  }
+
+  footer .footerCopyright {
+    max-width: 375px;
+    text-align: left;
+    align-self: center;
+  }
+
+  footer .footerContact {
+    float: right;
+    align-self: center;
+    text-align: right;
+  }
+
+  footer .footerPrivacyLink {
+    margin-right: 40px;
+  }
+
+  footer .footerContactLink {
+    margin-right: 40px;
+  }
+
+  footer .footerDonateLink {
+    margin-right: 80px;
+  }
+
+  footer .footerDonateLink a {
+    color: #af2000;
+  }
+}
+
+/*Headlines*/
+
+.container-fluid h3 { /*For article bodies*/
+  color: #D96E1D;
+}
+
+/*IDs*/
+#actionNetworkDonationForm {
+  width: 100%;
+  margin: 15px 0px;
+}
+
+#masterContainer > .container-fluid > .row > div[class^="col-sm-"] { /*Gets rid of Bootstrap cell padding on main row*/
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+/*Menu*/
+.navbar {
+  min-height: 60px;
+}
+
+.nav { /*Navbar wrapper class*/
+  font-family: "Roboto",sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  height: auto;
+}
+
+.navbar-fixed-top {
+  min-height: 60px;
+  border-radius: 0px;
+  background-color: rgba(0,0,0,0.7);
+  border: none;
+  margin-bottom: 0px;
+}
+
+@media only screen and (min-width: 678px) {
+  .navbar-fixed-top {
+    padding-right: 65px;
+    padding-left: 65px;
+  }
+}
+
+.navbar-fixed-top a:link,
+.navbar-fixed-top a:active,
+.navbar-fixed-top a:visited {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.navbar-fixed-top a:hover {
+  color: #fff !important;
+  background-color: #af2000 !important;
+}
+
+.active a:link,
+.active a:active,
+.active a:visited {
+}
+
+.dropdown-menu a:link,
+.dropdown-menu a:active,
+.dropdown-menu a:visited {
+}
+
+li.open {
+}
+
+ul.dropdown-menu li {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+li.dropdown a:hover {
+  cursor: default;
+}
+
+ul.dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: none;
+}
+
+.caret { /*Removes dropdown arrow*/
+    display: none;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  background-color: #af2000;
+}
+
+.dropdown-menu li a:hover {
+}
+
+.dropdown-menu li {
+  text-transform: none;
+}
+
+.open a:link,
+.open a:active,
+.open a:visited,
+.open a:hover {
+}
+
+.navbar-toggle {
+}
+
+.navbar-brand {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-right: 35px;
+}
+
+.navbar-brand a {
+    line-height: 30px;
+    padding: 20px 15px;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  background-color:  #af2000;
+}
+
+.menu-item { /*This class is added to every menu item.*/
+  text-transform: uppercase;
+  padding-right: 35px;
+}
+
+.menu-item a:hover {
+}
+
+.navbar-nav li a {
+ line-height: 30px;
+ padding-left: 12px;
+ padding-right: 12px;
+}
+
+.menu-custom-1 { /*Custom style for static menu item*/
+  padding-right: 15px;
+  float: right;
+  margin-right: 0px !important;
+}
+
+.menu-custom-1:hover { /*Custom style for static menu item*/
+}
+
+.menu-custom-1 a:link,
+.menu-custom-1 a:visited,
+.menu-custom-1 a:active {
+  color: #af2000 !important;
+  padding: 15px 12px;
+}
+
+.menu-custom-1 a:hover {
+  color: #fff !important;
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+    background-color: #af2000;
+}
+
+@media only screen and (min-width: 768px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
+
+.navSocialLinks {
+  float: none;
+  margin-right: 15px;
+}
+
+.navSocialLinks img {
+  height: 40px;
+  margin: 10px 5px;
+}
+
+.navSocialLinks a:link,
+.navSocialLinks a:hover,
+.navSocialLinks a:visited,
+.navSocialLinks a:active {
+  background-color: rgba(0, 0, 0, 0.0) !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .navSocialLinks {
+    float: right;
+  }
+}
+
+.andurilColumnMargin {
+  padding: 0 15px;
+}
+
+/*Classes*/
+@media only screen and (min-width: 768px) {
+  .andurilColumnMargin {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto 15px auto;
+    padding: 0;
+  }
+}
+
+.moreButton {
+  padding: 10px;
+  background-color: #af2000;
+  color: #fff;
+  display: inline;
+  margin: 0 auto 15px auto;
+  border: 0;
+  text-transform: uppercase;
+}
+
+.moreButton a:link,
+.moreButton a:active,
+.moreButton a:visited,
+.moreButton a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .sidebarContainer {
+    padding-left: 15px !important;
+  }
+}
+
+.widgettitle {
+  font-family: "Permanent Marker", cursive;
+  font-size: 38px;
+  text-align: center;
+  padding: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  .widgettitle {
+    font-size: 58px;
+  }
+}
+
+.gallery {
+  display: none;
+  /*We hid galleries by default, then render them with renderGallery() in /js/anduril.js*/
+}
+
+.galleryCanvas {
+  max-width: 100%;
+}
+
+.galleryThumbnail {
+  max-width: 100%;
+  margin: auto;
+}
+
+.galleryThumbnailContainer {
+  max-width: 100%;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.portfolioImg {
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+
+.portfolioImgScreen {
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .portfolioImgScreen {
+    max-width: 800px;
+  }
+  .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.postContainer h1, .pageHeadline {
+  font-family: "Permanent Marker", cursive;
+  font-size: 58px;
+  line-height: 54px;
+  color: #9c0100;
+  margin-bottom: 15px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .postContainer h1, .pageHeadline {
+      font-size: 38px;
+      line-height: 34px;
+    }
+}
+
+.postContainer h1 {
+  font-family: "Permanent Marker", cursive;
+  margin: 21px 0px;
+  font-size: 58px;
+}
+
+.homeEmailHeadline {
+  font-family: "Permanent Marker", cursive;
+  font-size: 28px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) { /*Fixes centering on mobile*/
+  .homeEmailHeadline {
+    /*min-width: 99vw;*/
+  }
+}
+
+.postContainer h1 {
+  font-family: "Permanent Marker", cursive;
+  margin: 21px 0px;
+  font-size: 58px;
+}
+
+@media only screen and (max-width: 767px) {
+    .postContainer h1 {
+      font-size: 38px;
+    }
+}
+
+.brandingImgContainer {
+  width: 120px;
+}
+
+.staticTopImg {
+  width: 100%;
+  margin-top: 60px;
+}
+
+.alignright {
+  float: right;
+  margin-left: 15px;
+}
+
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.alignleft {
+  float: left;
+  margin-right: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  .alignright {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+
+  .alignleft {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+
+  .aligncenter {
+    margin-bottom: 15px;
+  }
+}
+
+.buttonContainer {
+  text-align: center;
+}
+
+.thumbnail img {
+  width: 100%;
+}
+
+.socialLinks {
+  text-align: center;
+  margin: 0px 0px 25px 0px;
+  padding-bottom: 20px;
+}
+
+.socialLinks img {
+  width: 60px;
+}
+
+.sidebarBorder {
+  border: 2px solid #e5e5e5;
+  border-radius: 8px;
+  max-width: 100%;
+  margin-top: 15px;
+  padding: 2px;
+}
+
+.testimonialQuote {
+  max-width: 20px;
+  margin-right: 10px;
+}
+
+.contentBoxContainer {
+  display: table;
+  border: 2px solid #e5e5e5;
+  border-radius: 8px;
+  max-width: 100%;
+  padding: 10px;
+  height: 100%;
+}
+
+.contentBoxHeadline {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18px;
+  margin: 0px 0px 15px 0px;
+  color: #9c0100;
+}
+
+.contentBoxContent {
+
+}
+
+.contentBoxAltHeadline {
+  display: table-cell;
+  vertical-align: bottom;
+  font-style: italic;
+  font-size: 16px;
+  margin: 15px 0px 0px 0px;
+  text-align: right;
+  color: #9c0100;
+}
+
+.contentBoxAltContent {
+  display: table-row;
+  font-size: 18px;
+}
+
+.contentBoxSpacer {
+  margin-top: 15px;
+}
+
+/*Equal height Bootstrap columns fix*/
+.eqRow {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.eqRow > [class^='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 767px) { /*Makes sure divs span whole row*/
+  .eqRow > [class^='col-'] {
+    width: 100%;
+  }
+}
+
+/* Equal fifths for Bootstrap*/
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+/*Inline button*/
+
+.pro_btn_row {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px 0px 15px;
+  text-align: center;
+  background: #d96e1d;
+  margin: 0px auto 15px auto;
+}
+
+.pro_btn_row a {
+  cursor: pointer;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.pro_btn_row a:hover {
+  color: #000;
+  text-decoration: underline;
+}

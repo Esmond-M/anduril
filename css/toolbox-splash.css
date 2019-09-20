@@ -1,0 +1,146 @@
+#active-popup {
+
+  background-color: rgba(52,73,94, 0.7);
+
+  position: absolute;
+
+  width: 100%;
+
+  height: 100% !important;
+
+  top: 0;
+
+  left: 0;
+
+  z-index: 999;
+
+position: fixed;
+
+}
+
+
+
+#popup-container {
+
+  /*width: 25%;  WMW responsive fix*/
+  width: 250px;
+
+  height: 65%;
+
+  margin: 0 auto;
+
+  margin-top: 5%;
+
+  position: fixed;
+
+  /*left: 28%;  WMW responsive fix*/
+  left: 10px;
+  right: 10px !important;
+
+  z-index: 999;
+
+  top: 20%;
+
+  display: none;
+
+}
+
+.widget_recive_update #form-first_name{display:none !important;}
+
+.widget_recive_update #form-last_name{display:none !important;}
+
+.widget_recive_update #can_embed_form_inner #form_col2 {
+
+  padding-top: 10px !important;
+
+  clear: both !important;
+
+}
+
+#form-zip_code{ margin-bottom:10px !important;padding-bottom:10px !important;}
+
+#form-country{display:none !important; }
+
+.country_wrap{display:none !important;}
+
+#d_sharing{display:none !important;}
+
+#d_sharing label{display:none !important;}
+
+#d_sharing ul{display:none !important;}
+
+#can_embed_form input[type="submit"], #can_embed_form .button, #donate_auto_modal input[type="submit"], #donate_auto_modal .button{    margin-top: 15px !important;}
+
+#can_embed_form h2, #donate_auto_modal h2{display:none !important;}
+
+
+
+
+
+.modal-content {
+
+  position: relative;
+
+  text-align: center;
+
+}
+
+
+
+#popup-window { position: relative; }
+
+
+
+.modal-content h1,
+
+.modal-content p { color: #fff; }
+
+
+
+.modal-content p { padding: 20% 5% 0 5%; }
+
+
+
+#popup-container a.close {
+
+  position: relative;
+
+  float: right;
+
+  top: -15px;
+
+  right: -7px;
+
+  z-index: 99;
+
+  font-weight: bold;
+
+  font-size: 16px;
+
+  -webkit-border-radius: 20px;
+
+  -moz-border-radius: 20px;
+
+  border-radius: 20px;
+
+  padding: 2px 5px 2px 6px;
+
+  line-height: 1em;
+
+  text-align: center;
+
+  background: #E74C3C;
+
+  border: 4px solid #fff;
+
+  cursor: pointer;
+
+  color:#fff;
+
+}
+
+#popup-window input[type="submit"] {
+
+    background-color: orange !important;
+
+}

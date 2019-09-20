@@ -1,0 +1,3265 @@
+/*
+
+
+
+Theme Name: Toolbox
+
+
+
+Theme URI: https://wordpress.com/themes/
+
+
+
+Author: Automattic
+
+
+
+Author URI: https://wordpress.com/themes/
+
+
+
+Description: A semantic, HTML5, canvas for CSS artists and an ultra-minimal set of super-clean templates for your own WordPress theme development.
+
+
+
+Version: 1.4-wpcom
+
+
+
+License: GNU General Public License v2 or later
+
+
+
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
+
+
+Tags: custom-menu, sticky-post, microformats, rtl-language-support, translation-ready, full-width-template, post-formats, blog, minimal
+
+
+
+Status: inactive
+
+
+
+This theme, like WordPress, is licensed under the GPL.
+
+
+
+Use it to make something cool, have fun, and share what you've learned with others.
+
+
+
+*/
+
+
+
+/* =Structure
+
+
+
+-------------------------------------------------------------- */
+
+
+
+
+
+
+
+@import "https://fonts.googleapis.com/css?family=Permanent+Marker";
+
+
+
+@import "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300";
+
+
+
+@import "https://fonts.googleapis.com/css?family=Roboto:400,300,500,700";
+
+
+
+@import "https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple";
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Gochi+Hand);
+
+
+
+
+
+
+
+#page,body{margin:0}
+
+
+
+#content nav,.widget-area .widget_search{overflow:hidden}
+
+
+
+#access ul,.footer_link ul,.product_wraper ul,ul{list-style:none}
+
+
+
+.product_wraper ul li .entry-content{max-height:270px;min-height:270px}
+
+
+
+#wrecord>li{display:inline-block;height:auto;padding:15px;text-align:center;width:395px}
+
+
+
+#access,#main .widget-area{width:100%}
+
+
+
+#donate .headline{color:#9c0100;font-family:"Permanent Marker",cursive!important;font-size:54px;line-height:21px}
+
+
+
+body,h1,h2,h3,h4,h5,h6{font-family:"Montserrat",sans-serif;}
+
+
+
+#page{display:block}
+
+
+
+#primary {
+
+
+
+    float: none;
+
+
+
+    margin: 0 auto;
+
+
+
+}
+
+
+
+#content{margin:0 auto}
+
+
+
+#colophon{clear:both;display:block}
+
+
+
+.error404 #content,.full-width #content,.image-attachment #content{margin:0}
+
+
+
+.assistive-text,.screen-reader-text{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}
+
+
+
+.alignleft{display:inline;float:left}
+
+
+
+.alignright{display:inline;float:right}
+
+
+
+.aligncenter{clear:both;display:block;margin-left:auto;margin-right:auto}
+
+
+
+#site-title{font-size:2em;font-weight:700;margin:.67em 0}
+
+
+
+#site-description{font-size:1em;font-weight:400;margin:0 0 1em}
+
+
+
+#access a,.footer_link h3,.single-post .entry-title{font-family:"Montserrat",sans-serif;font-weight:500}
+
+
+
+#access{background:#9c0100;display:block;float:left;margin:-4px auto 1em;padding:15px 0}
+
+
+
+#access ul{margin:0 auto;padding-left:0;width:93%}
+
+
+
+#access li{background:url(https://socialmovementtechnologies.org/wp-content/themes/toolbox/images/red_arro.png) left center no-repeat;min-height:50px;padding:5px 3%;width:14%;float:left;position:relative}
+
+
+
+#access a{display:block;color:#fff;line-height:24px;text-decoration:none}
+
+
+
+#access ul ul{-moz-box-shadow:0 3px 3px rgba(0,0,0,.2);-webkit-box-shadow:0 3px 3px rgba(0,0,0,.2);display:none;float:left;position:absolute;top:2em;left:0;z-index:99999}
+
+
+
+#access ul ul,ul#menu-top-menu ul{box-shadow:0 3px 3px rgba(0,0,0,.2)}
+
+
+
+#access ul ul ul{left:100%;top:0}
+
+
+
+#access ul ul a{background:#dedede;line-height:1em;padding:.5em .5em .5em 1em;width:10em;height:auto}
+
+
+
+#access li:hover>a,#access ul ul :hover>a,#access ul ul a:hover{color:#eb9350}
+
+
+
+#access ul li:hover>ul{display:block}
+
+#menu-item-3866 a {line-height:20px; padding-top:10px; padding-bottom:10px;}
+
+ul#menu-top-menu li#menu-item-40 ul.sub-menu,ul#menu-top-menu li#menu-item-524 ul.sub-menu{display:none}
+
+
+
+ul#menu-top-menu li#menu-item-524:hover ul.sub-menu{display:block}
+
+
+
+ul#menu-top-menu li#menu-item-40:hover ul.sub-menu{display:block;color:#fff!important}
+
+
+
+.blog .entry-meta,.blog .entry-meta a{font-size:12px;color:#999}
+
+
+
+ul#menu-top-menu ul{-moz-box-shadow:0 3px 3px rgba(0,0,0,.2);-webkit-box-shadow:0 3px 3px rgba(0,0,0,.2);display:none;float:left;position:absolute;top:3em;left:90px;z-index:2;background:#DC3D24}
+
+
+
+.blog .entry-meta{clear:both;font-family:"Montserrat",sans-serif;}
+
+
+
+.blog .entry-meta a:hover{color:#9C0100}
+
+
+
+.single-post .entry-meta,.single-post .entry-meta a{font-size:14px;color:#999}
+
+
+
+.single-post .entry-meta{clear:both;font-family:"Montserrat",sans-serif;}
+
+
+
+.single-post .entry-meta a:hover{color:#9C0100}
+
+
+
+.single-post .entry-title{color:#9c0100;font-size:35px;margin-bottom:0;margin-top:0}
+
+
+
+.nav-next>a,.nav-previous>a,.watch{text-decoration:none;background:#d96e1d;color:#fff}
+
+
+
+h4.entry-title{margin-top:-20px}
+
+
+h1.entry-title{text-align: center;}
+
+
+.pro_btn_row{float:left;padding:20px 0 15px;position:relative;text-align:center;width:100%}
+
+
+
+.watch{cursor:pointer;font-family:"Montserrat",sans-serif;font-size:18px;padding:14px 30px}
+
+
+
+.single-author .entry-meta .byline{display:none}
+
+
+
+#content nav{display:block}
+
+
+
+#content nav .nav-previous{float:left;width:50%}
+
+
+
+#content nav .nav-next{float:right;text-align:right;width:50%}
+
+
+
+#content #nav-above{display:none}
+
+
+
+.paged #content #nav-above,.single #content #nav-above{display:block}
+
+
+
+#nav-below{margin:1em 0 0;padding:10px 25px}
+
+
+
+.nav-next>a,.nav-previous>a{padding:10px 25px}
+
+
+
+.page-link{clear:both;margin:0 0 1em}
+
+
+
+.page .edit-link{clear:both;display:block}
+
+
+
+#comments{border:1px solid #e4e4e4;box-shadow:0 0 15px #ddd;margin-left:25px;margin-top:30px;padding:0 25px;width:89%}
+
+
+
+.comment-reply-title{color:#9c0100;text-align:center}
+
+
+
+.submit{background:#d96e1d;border:none;color:#fff;font-family:"Montserrat",sans-serif;font-size:16px;padding:10px}
+
+
+
+#form-allowed-tags{display:none}
+
+
+
+.error404 .widget{float:left;width:33%}
+
+
+
+.error404 .widget .widgettitle,.error404 .widget ul{margin-right:1em}
+
+
+
+.error404 .widget_tag_cloud{clear:both;float:none;width:100%}
+
+
+
+.error404 #searchform,.post .notice{background:#eee;display:block;padding:1em}
+
+
+
+.image-attachment div.entry-meta{float:left}
+
+
+
+.image-attachment nav{float:right;margin:0 0 1em}
+
+
+
+.image-attachment .entry-content{clear:both}
+
+
+
+.image-attachment .entry-content .entry-attachment{background:#eee;margin:0 0 1em;padding:1em;text-align:center}
+
+
+
+.image-attachment .entry-content .attachment{display:block;margin:0 auto;text-align:center}
+
+
+
+
+
+
+
+.format-aside .entry-header{display:none}
+
+
+
+.single .format-aside .entry-header{display:block}
+
+
+
+.format-aside .entry-content,.format-aside .entry-summary{padding-top:1em}
+
+
+
+.single .format-aside .entry-content,.single .format-aside .entry-summary{padding-top:0}
+
+
+
+.format-gallery .gallery-thumb{float:left;margin:0 1em 0 0}
+
+
+
+.format-image .entry-header{display:none}
+
+
+
+.single .format-image .entry-header{display:block}
+
+
+
+.format-image .entry-content,.format-image .entry-summary{padding-top:1em}
+
+
+
+.single .format-image .entry-content,.single .format-image .entry-summary{padding-top:0}
+
+
+
+a img{border:none}
+
+
+
+p img{margin-bottom:.5em}
+
+
+
+.entry-attachment img,.entry-media img,.widget-area img,.wp-caption,img.size-auto,img.size-full,img.size-large,img.size-medium{max-width:100%;height:auto}
+
+
+
+img.alignleft{margin-right:1em}
+
+
+
+img.alignright{margin-left:1em}
+
+
+
+.wp-caption{padding:.5em;text-align:center}
+
+
+
+.wp-caption img{margin:.25em}
+
+
+
+.wp-caption .wp-caption-text{margin:.5em}
+
+
+
+.wp-smiley{margin:0}
+
+
+
+#searchform label{display:none}
+
+
+
+#searchform input#s{width:60%}
+
+
+
+input#s,input[type=email],input[type=text]{margin:0 1em 0 0;width:60%}
+
+
+
+.required{color:#c03}
+
+
+
+article.comment{display:block}
+
+
+
+#respond input[type=text]{display:block;width:60%}
+
+
+
+#respond textarea{display:block;margin:0 0 1em;width:80%}
+
+
+
+#respond .form-allowed-tags{clear:both;width:80%}
+
+
+
+#colophon,.footer{float:left;width:100%}
+
+
+
+#respond .form-allowed-tags code,.widget{display:block}
+
+
+
+.widget-area .widget_search input{float:left}
+
+
+
+#colophon{background:#222;padding:20px 0}
+
+
+
+.footer{box-sizing:border-box;padding:0 2%}
+
+
+
+.footer_link{float:left;margin-right:30px;width:25%}
+
+
+
+.footer_link ul li,.footer_link ul li a{float:left;width:100%}
+
+
+
+.footer_link h3{color:#fff;font-size:20px;margin-bottom:0;padding-bottom:0}
+
+
+
+.footer_link ul{padding-left:0}
+
+
+
+.footer_link ul li a{color:#999;font-family:"Montserrat",sans-serif;font-size:18px;font-weight:400;padding:5px 0;text-decoration:none}
+
+
+
+.footer_social{float:right;width:17%}
+
+
+
+.main_menu,.top_row{}
+
+
+
+.footer_social h3{color:#fff;font-family:"Montserrat",sans-serif;font-size:20px;font-weight:500;padding-bottom:8px}
+
+
+
+.footer_social_row{width:100%;text-align:left}
+
+
+
+.footer_social_row img{margin-right:10px;width:65px}
+
+
+
+.footer_social p{color:#999;font-family:"Montserrat",sans-serif;font-size:18px;line-height:26px;padding:10px}
+
+
+
+.top_row{background:rgba(0,0,0,.7);box-sizing:border-box;min-height:60px;padding:0 1%;width:100%;z-index:99}
+
+
+
+.main_menu ul{margin:0;padding:0}
+
+
+
+.main_menu ul li{color:#fff;float:left;font-family:"Montserrat",sans-serif;font-size:18px;line-height:60px}
+
+
+
+.main_menu ul li.current-menu-item a{background:url(https://socialmovementtechnologies.org/wp-content/themes/toolbox/images/menu_active_arro.png) center top no-repeat;color:#e03433;display:block;text-decoration:none}
+
+
+
+.main_menu ul ul.sub-menu li a,.main_menu ul ul.sub-menu li.current-menu-item a{background:0 0;color:#fff}
+
+
+
+.main_menu ul li a:hover{background:url(https://socialmovementtechnologies.org/wp-content/themes/toolbox/images/menu_active_arro.png) center top no-repeat;color:#e03433}
+
+
+
+.main_menu ul ul.sub-menu li a:hover{background:#B52B11;color:#fff}
+
+
+
+.main_menu ul ul a:hover{background:0 0}
+
+
+
+.main_menu ul li a{color:#fff;display:block;padding:0 12px;text-decoration:none}
+
+
+
+li.menu-item-40 ul{left:205px!important}
+
+
+
+.main_menu ul ul li a{line-height:40px}
+
+
+
+.social_icon{float:right;padding-right:25px}
+
+
+
+.hvr-float-shadow::before{
+
+
+
+	background:radial-gradient(ellipse at center center ,rgba(255,255,255,.35) 0,rgba(255,255,255,0) 80%);
+
+
+
+	content:"";
+
+
+
+	height:10px;
+
+
+
+	left:5%;
+
+
+
+	opacity:0;
+
+
+
+	pointer-events:none;
+
+
+
+	position:absolute;
+
+
+
+	top:100%;
+
+
+
+	transition-duration:.3s;
+
+
+
+	transition-property:transform,opacity;
+
+
+
+	width:90%;
+
+
+
+	z-index:-1}
+
+
+
+.hvr-float-shadow,.hvr-sweep-to-left::before{transition-duration:.3s;transition-property:transform}
+
+
+
+.social_icon a{float:left;margin:7px 0 0;padding-left:0}
+
+
+
+.hvr-float-shadow{backface-visibility:hidden;box-shadow:0 0 1px transparent;display:inline-block;position:relative;transform:translateZ(0);vertical-align:middle}
+
+
+
+.social_icon a img{width:80%}
+
+
+
+.banner{
+
+
+
+	background:url(https://socialmovementtechnologies.org/wp-content/uploads/2015/07/banner_bg1.jpg) center center fixed;
+
+    min-height: 555px;
+
+    position: relative;
+
+    padding-bottom: 20px;
+
+
+
+-webkit-background-size:cover;
+
+
+
+-moz-background-size:cover;
+
+
+
+-o-background-size:cover;
+
+
+
+background-size:cover}
+
+
+
+.banner,.header,.innerbanner,.page{float:left;width:100%}
+
+
+
+.banner img{width:100%}
+
+
+
+
+
+.recive_update {
+
+    width: 100%;
+
+    max-width: 400px;
+
+    float: right;
+
+    margin-right: 40px;
+
+}
+
+
+
+.hvr-sweep-to-left::before,.hvr-sweep-to-right::before{content:"";bottom:0;left:0;right:0;top:0;transition-timing-function:ease-out;z-index:-1}
+
+
+
+.widget_recive_update input[type=email]{box-sizing:border-box;float:left;font-family:"Montserrat",sans-serif;font-size:14px;font-weight:300;padding:10px;margin-right:3px;width:52%}
+
+
+
+.widget_recive_update input[type=zipcode]{box-sizing:border-box;float:left;font-family:"Montserrat",sans-serif;font-size:14px;font-weight:300;margin:0 1%;padding:10px;width:20%}
+
+
+
+.recive_update label,.widget_recive_update input[type=button]{color:#fff;float:left;font-family:"Montserrat",sans-serif;font-size:16px}
+
+
+
+.widget_recive_update input[type=button]{background:#d96e1d;-webkit-appearance:none;border:none;box-sizing:border-box;cursor:pointer;font-weight:500;padding:9px 0;margin-left:3px;text-align:center;width:22%}
+
+
+
+.recive_update label{font-weight:300;padding-bottom:7px;width:100%}
+
+
+
+.recive_update input[type=email]{box-sizing:border-box;float:left;font-family:"Montserrat",sans-serif;font-size:14px;font-weight:300;padding:10px;}
+
+
+
+.recive_update input[type=zipcode]{box-sizing:border-box;float:left;font-family:"Montserrat",sans-serif;font-size:14px;font-weight:300;margin:0 1%;padding:10px;width:22%}
+
+
+
+.all_services a,.product_wraper ul li h4 a,.recive_update input[type=button]{font-family:"Montserrat",sans-serif;font-weight:500}
+
+
+
+.hvr-sweep-to-left::before{background:#eb9350;position:absolute;transform:scaleX(0);transform-origin:100% 50% 0}
+
+
+
+.hvr-sweep-to-left,.hvr-sweep-to-right{display:inline-block;transition-duration:.3s;backface-visibility:hidden;box-shadow:0 0 1px transparent;transform:translateZ(0);transition-property:color;vertical-align:middle}
+
+
+
+.recive_update input[type=button]{background:#d96e1d;-webkit-appearance:none;border:none;box-sizing:border-box;color:#fff;cursor:pointer;float:right;font-size:16px;padding:9px 0;position:relative;text-align:center;width:22%}
+
+
+
+.hvr-sweep-to-left{position:relative}
+
+
+
+.all_services_row{float:left;padding-bottom:20px;width:100%;margin-top:-16px}
+
+
+
+.all_services{margin:0 auto;position:relative;width:250px}
+
+
+
+.all_services a{background:#540000;border-radius:0 0 10px 10px;color:#fff;float:left;font-size:23px;padding:6px 0;text-align:center;text-decoration:none;text-transform:uppercase;width:250px}
+
+
+
+.hvr-sweep-to-right{position:relative}
+
+
+
+.hvr-sweep-to-right:active::before,.hvr-sweep-to-right:focus::before,.hvr-sweep-to-right:hover::before{transform:scaleX(1)}
+
+
+
+.hvr-sweep-to-right::before{background:#d96e1d;border-radius:0 0 10px 10px;position:absolute;transform:scaleX(0);transform-origin:0 50% 0;transition-duration:.3s;transition-property:transform}
+
+
+
+.hvr-sweep-to-right:active,.hvr-sweep-to-right:focus,.hvr-sweep-to-right:hover{color:#fff}
+
+
+
+.content_wrapper{float:left;padding:20px 0;width:100%}
+
+
+
+.leftside{float:left;width:70%}
+
+
+
+.rightside{float:right;padding-right:10px;width:27%}
+
+
+
+.product_wraper{-moz-column-count:1;-moz-column-gap:0;-webkit-column-count:1;-webkit-column-gap:0;column-count:1;column-gap:0;width:100%}
+
+
+
+.product_wraper ul{margin:0;padding:0}
+
+
+
+.home .product_wraper ul li{background:#e5e5e5;display:inline-block;min-height:610px;margin: 10px 5px;padding-bottom:30px;width:31%}
+
+
+
+.page .entry-content ul, .post .entry-content ul {
+
+
+
+  list-style: disc;
+
+
+
+  margin: 30px;
+
+
+
+}
+
+
+
+.product_wraper ul li img.attachment-medium{max-height:199px;max-width:100%;width:100%}
+
+
+
+.product_wraper ul li h4 a{box-sizing:border-box;color:#060606;float:left;font-size:20px;padding:11px 1% 10px;width:100%}
+
+
+
+header.entry-header{padding:0 15px}
+
+
+
+.single-post header.entry-header{padding:0 3px}
+
+
+
+.product_wraper ul li h4 a:hover{text-decoration:underline;color:#9c0100}
+
+
+
+.product_wraper ul li p{display:inline-block;float:left;    font-family: "Montserrat",sans-serif;font-size: 16px !important;font-weight: 300;line-height: 24px !important;margin:0;padding:10px 5% 0}
+
+
+
+.rm{color:#9c0100;padding-left:15px;text-align:right;text-decoration:none}
+
+
+
+.rm:hover{color:#000;text-decoration:underline}
+
+
+
+footer.entry-meta{display:none}
+
+
+
+.read_more{float:left;padding:20px 0 15px;position:relative;text-align:center;width:100%}
+
+
+
+header.entry-meta,header.entry-meta a{font-family:"Montserrat",sans-serif;font-size:13px;color:#333}
+
+
+
+.testimonial_rotator_author_info p,.testimonial_rotator_slide_title{color:#9c0100;float:left;font-family:"Montserrat",sans-serif;text-align:right;width:100%}
+
+
+
+.testimonial_rotator_slide_title{font-size:22px;font-weight:500;font-style:normal}
+
+
+
+.testimonial_rotator_author_info{border-left:none!important}
+
+
+
+.testimonial_rotator_author_info p{font-size:16px;font-weight:300;margin-top:0}
+
+
+
+.group_training_title span,.group_training_title strong{float:left;text-align:center;color:#fff;font-family:"Montserrat",sans-serif;}
+
+
+
+.testimonial_rotator_widget_wrap::after{background:url(https://socialmovementtechnologies.org/wp-content/themes/toolbox/images/DOWN_ARRO.png) left top no-repeat;bottom:-29px;content:"";height:29px;position:absolute;right:50px;width:33px}
+
+
+
+.testimonial_rotator_widget_wrap{border:2px solid #e5e5e5;border-radius:8px;box-sizing:border-box;float:left;margin-bottom:30px;padding:10px 20px;position:relative;width:100%;font-family:"Montserrat",sans-serif;font-size:18px;line-height:25px;font-weight:normal;}
+
+
+
+.ram span{background:url(https://socialmovementtechnologies.org/wp-content/themes/toolbox/images/colum.png) no-repeat;display:block;float:left;width:35px}
+
+
+
+.blog footer.entry-meta,.home #nav-below,.page-id-12 .entry-title, .home #nav-below {display:none;}
+
+
+
+.group_training{background:#540000;border-radius:8px;float:left;text-align:center;width:100%}
+
+
+
+.group_training_title{background:#9c0100;border-radius:8px 8px 0 0;box-sizing:border-box;float:left;padding:5px 20px 15px;width:100%}
+
+
+
+.group_training_title strong{font-size:36px;font-weight:700;width:100%}
+
+
+
+.group_training_title span{font-size:20px;font-weight:500;line-height:22px;width:100%}
+
+
+
+.group_training_content{box-sizing:border-box;float:left;padding:10px 20px;text-align:center;width:100%}
+
+
+
+.group_training_content ul{list-style:none;margin:0;padding:0}
+
+
+
+.group_training_content p,.group_training_content ul li{text-align:center;color:#fff;font-family:"Montserrat",sans-serif;font-weight:400;padding:3px 0}
+
+
+
+.group_training_content ul li{float:left;width:100%}
+
+
+
+.group_training_content p{margin-bottom:0;margin-top:8px}
+
+
+
+.follow_us{float:left;padding:10px 0 0;width:100%}
+
+
+
+.follow_us h2{color:#333;font-family:"Montserrat",sans-serif;font-size:20px;font-weight:500;padding-bottom:8px;text-align:center}
+
+
+
+.entry-content p, .page-template-default .type-page p {
+
+
+
+    font-family: "Montserrat",sans-serif;
+
+
+
+    font-size: 16px !important;
+
+
+
+    font-weight: 300;
+
+
+
+    line-height: 22px !important;
+
+
+
+}
+
+
+
+.social_icon_row{width:100%;text-align:center}
+
+
+
+.social_icon_row img{margin-right:10px}
+
+
+
+.page-template-default .type-page,.single-post .type-post{box-sizing:border-box;padding:20px;width:100%}
+
+
+
+.page-template-default .type-page p{line-height:20px}
+
+
+
+p.no-break{margin-left:3%;width:93%}
+
+
+
+.page-template-default .type-page h1, .type-page h1{color:#9c0100;margin-top:0;margin-bottom:10px;font-weight:500}
+
+
+
+.page-template-default .type-page h3, .type-page h3{color:#D96E1D;font-family:"Montserrat",sans-serif;font-size:22px;margin-top:0;margin-bottom:10px;font-weight:500}
+
+
+
+
+
+
+
+h1.widget-title{color:#9c0100;font-family:"Montserrat",sans-serif;}
+
+
+
+.testimonial_rotator_author_info a{color:#9c0100}
+
+
+
+.page-id-184 .product_wraper ul li,.page-id-294 .product_wraper ul li,.page-id-362 .product_wraper ul li{width:95%!important;float:none!important;height:auto!important; padding:15px;}
+
+
+
+.page-id-12 img,.page-id-14 img,.page-id-178 img,.page-id-184 img,.page-id-333 img {float:right}
+
+
+
+.page-id-12 #donate,.page-id-14 #main,.page-id-178 #main,.page-id-184 #income,.page-id-333
+
+
+
+#recognition {width:93%;margin-left:3%}
+
+
+
+.postid-302 .product_wraper ul li{width:95%!important;float:none!important;height:auto!important}
+
+
+
+.postid-302 img,.postid-314 img,.postid-320 img{float:right}
+
+
+
+.page-id-10 p img{width:100%}
+
+
+
+.banner_title {
+
+    color: #fff;
+
+    font-family: "Permanent Marker",cursive;
+
+    font-size: 58px;
+
+    padding: 90px 40px;
+
+    width: 90%;
+
+}
+
+
+
+.social_moment {
+
+    float: left;
+
+    max-width: 880px;
+
+    padding: 5px 40px;
+
+    position: relative;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+}
+
+
+
+.social_moment img{border:3px solid #fff;border-radius:3px;float:left;margin:0 20px 20px;width:89px}
+
+
+
+.social_moment h2,.social_moment p{color:#fff;font-weight:400;font-family:"Montserrat",sans-serif;margin-top:0}
+
+
+
+.social_moment h2{font-size:25px;line-height:25px}
+
+
+
+.social_moment p{font-size:20px;line-height:26px}
+
+
+
+.staff{width:100%;border:solid #ccc;margin-top:32px;}
+
+
+
+.dec-box{width:100%;border:solid #ccc;margin-top:32px;padding:10px;padding-top:0;padding-bottom:0;}
+
+
+
+div.dec-box hr {background-color: #ffc016 !important;padding-bottom: 0;padding-top: 5px;margin-top: 0px;margin-bottom: 0px;outline: none;color: orange;border: 0;}
+
+
+
+.dec-box-date{background: #9c0100 none repeat scroll 0 0;color: #ffffff;margin-top: 0px;padding: 5px;margin-bottom: 0px;}
+
+
+
+.dec-box-title{background:#b52b11 none repeat scroll 0 0;color: #ffffff;margin-top: 0px;padding: 5px;margin-bottom: 0px;}
+
+
+
+.color-box {
+
+float: left;
+
+margin: 3px;
+
+padding: 2px;
+
+}
+
+.color-box a {
+
+color: #ffffff;
+
+text-decoration: none;
+
+}
+
+.magenta {
+
+background: #c50063;
+
+padding: 3px;
+
+padding-top: 3px;
+
+padding-bottom: 3px;
+
+margin-top: 2px;
+
+margin-bottom: 2px;
+
+}
+
+.red {
+
+background: #ff0000;
+
+padding: 3px;
+
+padding-top: 3px;
+
+padding-bottom: 3px;
+
+margin-top: 2px;
+
+margin-bottom: 2px;
+
+}
+
+.orange {
+
+background: #ff8200;
+
+padding: 3px;
+
+padding-top: 3px;
+
+padding-bottom: 3px;
+
+margin-top: 2px;
+
+margin-bottom: 2px;
+
+}
+
+.pale-orange {
+
+background: #ffb800;
+
+padding: 3px;
+
+padding-top: 3px;
+
+padding-bottom: 3px;
+
+margin-top: 2px;
+
+margin-bottom: 2px;
+
+}
+
+.green {
+
+background: #00b052;
+
+padding: 3px;
+
+padding-top: 3px;
+
+padding-bottom: 3px;
+
+margin-top: 2px;
+
+margin-bottom: 2px;
+
+}
+
+.sky-blue {
+
+background: #4acec1;
+
+padding: 3px;
+
+padding-top: 3px;
+
+padding-bottom: 3px;
+
+margin-top: 2px;
+
+margin-bottom: 2px;
+
+}
+
+.blue {
+
+background: #00afdf;
+
+padding: 3px;
+
+padding-top: 3px;
+
+padding-bottom: 3px;
+
+margin-top: 2px;
+
+margin-bottom: 2px;
+
+}
+
+.dark-blue {
+
+background: #5942a3;
+
+padding: 3px;
+
+padding-top: 3px;
+
+padding-bottom: 3px;
+
+margin-top: 2px;
+
+margin-bottom: 2px;
+
+}
+
+.purple {
+
+background: #720092;
+
+padding: 3px;
+
+padding-top: 3px;
+
+padding-bottom: 3px;
+
+margin-top: 2px;
+
+margin-bottom: 2px;
+
+}
+
+
+
+.page-id-82 #staff p{margin-left:10px;margin-right:10px;margin-top:18px}
+
+
+
+.page-id-418 .staff{width:100%;border:solid #ccc;margin-top:32px}
+
+
+
+.page-id-418 #staff p{margin-left:10px;margin-right:10px;margin-top:18px}
+
+
+
+.page-id-101 .staff{width:100%;border:solid #ccc;margin-top:32px}
+
+
+
+.page-id-101 #board p,.page-id-418 #board p{margin-left:10px;margin-right:10px;margin-top:18px}
+
+
+
+a{color:#9c0100}
+
+
+
+.page-id-545 .entry-content iframe{float:left;margin-bottom:15px;margin-left:10px;margin-right:8px;max-height:300px!important;max-width:450px!important;width:430px}
+
+
+
+.page-id-418 .img img{width:100%}
+
+
+
+.footer_link a:hover{color:#fff;background-color:transparent;text-decoration:underline}
+
+
+
+.page-id-362 body{font-family:"Montserrat",sans-serif;}
+
+
+
+ul#menu-top-menu li#menu-item-443 ul.sub-menu{display:none;width:195px}
+
+
+
+#can_embed_form #logo_wrap,.blog .entry-meta,.single-post .entry-meta{display:none!important}
+
+
+
+.product_wraper ul li img.attachment-medium{}
+
+
+
+.group_training_content p{line-height:17px}
+
+
+
+.group_training_content,.rightside marquee{height:275px}
+
+
+
+.top_row{position:fixed}
+
+
+
+.form1{background:#F8F8F8;border-left:2px solid #dc3d24;border-top-left-radius:5px;border-top-right-radius:5px;padding:20px 25px}
+
+
+
+.form1 #wpcf7-f242-p275-o1{margin:0 0 0 8px}
+
+
+
+.main_menu ul ul li{width:300px}
+
+
+
+ul#menu-top-menu ul{width:300px!important}
+
+
+
+.innerbanner,.singlebanner{position:relative;width:100%}
+
+
+
+.page-template-default .type-page h1, .type-page h1{font-family:"Permanent Marker",cursive!important;font-size:54px!important;text-align:left!important}
+
+
+
+.singlebanner{background:url(https://socialmovementtechnologies.org/wp-content/uploads/2015/07/header_bg.jpg) center center/cover fixed;height:150px}
+
+
+
+.innerbanner{height:290px}
+
+
+
+.innerbanner .social_moment h2{margin-top:30px}
+
+
+
+.innerbanner .social_moment{top:116px}
+
+
+
+.single-post .top_row{display:none}
+
+
+
+.singlebanner .social_moment{float:left;left:40px;position:absolute;top:27px;width:700px}
+
+
+
+.singlebanner .social_icon{float:right;margin-top:42px;padding-right:25px}
+
+
+
+.singlebanner .social_moment h2{color:#fff;font-family:"Montserrat",sans-serif;font-size:28px;font-weight:400;line-height:20px;margin-top:32px}
+
+
+
+#logo_wrap{display:none!important}
+
+
+
+.recive_update input[type=button]{height:40px}
+
+
+
+.postid-275 img.alignright{margin-bottom:1em}
+
+
+
+
+
+
+
+.hvr-back {padding: 23px 30px;}
+
+
+
+.group_training{margin-top:1px!important}
+
+
+
+#primary{width:90%}
+
+
+
+.page-id-10 #div1{width:50%;float:left}
+
+
+
+.page-id-10 #div2{width:50%;float:right}
+
+
+
+.entry-content{padding-left:15px}
+
+
+
+.entry-content p, .entry-content li {
+
+
+
+    font-size: 16px !important;
+
+
+
+    font-weight: 300 !important;
+
+
+
+    line-height: 22px !important;
+
+
+
+}
+
+
+
+.entry-content li { margin: 5px 0;}
+
+
+
+#mobile-nav{width:46px;height:37px;float:left;background:url(images/menu_icon.png) left top no-repeat;cursor:pointer;display:none;margin-top:10px}input#s,input[type=email],input[type=text],input[type=tel],textarea{border:1px solid #ccc;box-sizing:border-box;margin:0 1em 0 0;padding:7px 10px;width:100%}
+
+
+
+input[type=submit]{padding:6px 15px;border:1px solid #ccc;background:#C33;color:#fff;font-size:16px;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;-khtml-border-radius:4px;cursor:pointer}
+
+
+
+
+
+
+
+#can_embed_form #action_info { display:none;}
+
+
+
+
+
+#groups-scroll::-webkit-scrollbar {
+  width: 5px;
+  height: 2px;
+}
+#groups-scroll::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+#groups-scroll::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+#groups-scroll::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+#groups-scroll::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+#groups-scroll::-webkit-scrollbar-track {
+  background: #666666;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+#groups-scroll::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+#groups-scroll::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+#groups-scroll::-webkit-scrollbar-corner {
+  background: transparent;
+}
+#groups-scroll{overflow-y:scroll !important;}
+#groups-scroll>ul{padding-right:20px!important; overflow:auto !important;}
+
+
+
+.recive_update .country_wrap,.recive_update div#action_info,.recive_update input#form-first_name,.recive_update input#form-last_name,.recive_update ul,.widget_recive_update .country_wrap,.widget_recive_update div#action_info,.widget_recive_update h4,.widget_recive_update input#form-first_name,.widget_recive_update input#form-last_name,.widget_recive_update ul,h1.widget-title{display:none}
+
+
+
+aside#text-7{height: auto; margin-bottom: 10px;}
+
+
+
+
+
+
+
+.widget_recive_update div#can_embed_form{border-radius:8px}
+
+
+
+div#light {position: fixed !important;}
+
+
+
+#div1 .can_float {
+
+
+
+    height: 630px;}
+
+
+
+#div1 div#form_col1 {
+
+
+
+    width: 100% !important;}
+
+
+
+#div1 div#form_col2 {
+
+
+
+    width: 100% !important;}
+
+
+
+
+
+
+
+.page-id-10 span.stLarge {
+
+
+
+    margin-top: 10px;
+
+
+
+    margin-left: 10px;}
+
+
+
+
+
+
+
+.page-id-12 #donate { margin: 0 auto;
+
+
+
+    padding: 0 80px !important;
+
+
+
+    width: 85% !important;}
+
+
+
+
+
+
+
+
+
+
+
+.page-id-12 p.no-break {
+
+
+
+    margin-left: 7% !important;
+
+
+
+    width: 80% !important;}
+
+
+
+.all_services_row{ padding-bottom: 0px !important;}
+
+
+
+.page-template-default .type-page, .single-post .type-post { }
+
+
+
+.product_wraper h3 { margin-left: 3em !important;}
+
+
+
+.entry-content { padding-left: 0 !important;}
+
+
+
+p.no-break { margin-left: 0 !important;}
+
+
+
+.postid-403 #actionnetwork1 input#form-first_name { display: block !important;
+
+
+
+                        width: 48%;
+
+
+
+                        float: left !important;}
+
+
+
+.postid-403 #actionnetwork1 input#form-last_name { display: block !important;
+
+
+
+                        width: 48%;
+
+
+
+                       float: right !important;}
+
+
+
+.postid-403 #actionnetwork1 input#form-email { width: 48%;}
+
+
+
+.postid-403 #actionnetwork1 input#form-zip_code { float: right !important;
+
+
+
+                      width: 48%;}
+
+
+
+.widget_recive_update input#form-zip_code { width: 48% !important;
+
+
+
+                                            float: right !important;}
+
+
+
+.widget_recive_update input#form-email { width: 48% !important;}
+
+
+
+#div1 input#form-first_name { display: block !important;}
+
+
+
+#div1 input#form-last_name { display: block !important;}
+
+
+
+.testimonial_rotator.hreview-aggregate_widget.cycletwo-slideshow.format-rotator.template-default {position: sticky !important;}
+
+
+
+#div1 input#textinput { margin-top: 15px !important;}
+
+
+
+#div2 img.img1.alignnone { padding-left: 14px;}
+
+
+
+#div2 img { margin-bottom: -0.5em !important;}
+
+
+
+
+
+
+
+.postid-275 .form1 input#form-first_name { display: block !important;
+
+
+
+                        width: 48%;
+
+
+
+                        float: left !important;}
+
+
+
+.postid-275 .form1 input#form-last_name { display: block !important;
+
+
+
+                        width: 48%;
+
+
+
+                       float: right !important;}
+
+
+
+.postid-275 .form1 input#form-email { width: 48%;}
+
+
+
+.postid-275 .form1 input#form-zip_code { float: right !important;
+
+
+
+                      width: 48%;}
+
+
+
+#donate img {
+
+
+
+    width: auto !important;
+
+
+
+    height: 324px;
+
+
+
+    margin-left: 25px;}
+
+
+
+div#logo_wrap { display: none;}
+
+
+
+
+
+
+
+select#form-month { width:20% !important;}
+
+
+
+select#form-year { width:20% !important;}
+
+
+
+div#testimonial_rotator_widget_148 { z-index: 1;}
+
+
+
+input[type="submit"] { background-color: orange !important;}
+
+
+
+.box1{border: 2px solid #e5e5e5;
+
+
+
+    border-radius: 8px;
+
+
+
+    box-sizing: border-box;
+
+
+
+    float: left;
+
+
+
+    font-family: "Montserrat",sans-serif;
+
+
+
+    font-size: 20px;
+
+
+
+    line-height: 25px;
+
+
+
+    margin-bottom: 20px;
+
+
+
+    margin-left: 20px;
+
+
+
+    padding: 10px;
+
+
+
+    position: relative;
+
+
+
+    width: 47%;
+
+
+
+    min-height:341px; }
+
+
+
+.box2{ font-family:"Montserrat",sans-serif; min-height:223px; }
+
+
+
+.box2 h2{font-size:16px;}
+
+
+
+.clear{ clear:both;}
+
+
+
+.box3{color: #9c0100; float: right; padding: 0px 10px;}
+
+
+
+.box3 h2{text-align: right;font-weight:500; font-size:18px;}
+
+
+
+.box3 p{text-align: right; margin-top:-18px; font-style:italic; font-size:14px;}
+
+
+
+.headingbox h1{text-align:center;}
+
+
+
+.headingbox h2{text-align:left; font-family: "Permanent Marker";
+
+
+
+    color: #EB3D1A; font-size:36px;}
+
+
+
+.testimonial-page .others ol{line-height:5px; font-size:18px;}
+
+
+
+.testimonial-page .box1{border: 2px solid #e5e5e5;
+
+
+
+    border-radius: 8px;
+
+
+
+    box-sizing: border-box;
+
+
+
+    float: left;
+
+
+
+    font-family: "Montserrat",sans-serif;
+
+
+
+    font-size: 20px;
+
+
+
+    line-height: 25px;
+
+
+
+    margin-bottom: 20px;
+
+
+
+    margin-left: 20px;
+
+
+
+    padding: 10px;
+
+
+
+    position: relative;
+
+
+
+
+
+
+
+     }
+
+
+
+.testimonial-page .box2{ font-family:"Montserrat",sans-serif; }
+
+
+
+.testimonial-page .box2 h2{font-size:16px;}
+
+
+
+.testimonial-page .clear{ clear:both;}
+
+
+
+.testimonial-page .box3{color: #9c0100; float: right; padding: 0px 10px;}
+
+
+
+.testimonial-page .box3 h2 {
+
+
+
+    font-size: 18px;
+
+
+
+    font-weight: 500;
+
+
+
+    text-align: right;
+
+
+
+    margin: 0 0 15px;
+
+
+
+}
+
+
+
+.testimonial-page .box3 p{text-align: right; margin-top:-18px; font-style:italic; font-size:14px;}
+
+
+
+.testimonial-page .headingbox h1{text-align:center;}
+
+
+
+.testimonial-page .headingbox h2{text-align:left; font-family: "Permanent Marker";
+
+
+
+    color: #EB3D1A; font-size:36px;}
+
+
+
+.testimonial-page .others ol{line-height:5px; font-size:18px;}
+
+
+
+
+
+
+
+.PostRow{ display:block;}
+
+
+
+.greyBorder {
+
+
+
+    border: medium solid #ccc;
+
+
+
+    float: left;
+
+
+
+    padding: 20px;
+
+
+
+    width: 100%;
+
+
+
+    max-width: 764px;
+
+
+
+}
+
+
+
+.originalUl li {
+
+
+
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;height: auto !important;padding: 0 !important;width: 100% !important;}
+
+
+
+.display-none {display: none;}
+
+
+
+
+
+.videoWrapperDiv {
+
+	width: 50%;
+
+	float: right;
+
+	padding: 15px;
+
+}
+
+.videoWrapper {
+
+	position: relative;
+
+	padding-bottom: 56.25%; /* 16:9 */
+
+	padding-top: 25px;
+
+	height: 0;
+
+}
+
+.videoWrapper iframe {
+
+	position: absolute;
+
+	top: 0;
+
+	left: 0;
+
+	width: 100%;
+
+	height: 100%;
+
+}
+
+
+
+
+
+/* Added */
+
+
+
+.contributionform{
+
+
+
+		width:100%;
+
+
+
+		padding:15px;
+
+
+
+		border:1px solid #D0D0D0;
+
+
+
+	}
+
+
+
+
+
+
+
+	.contributionform h3{
+
+
+
+		padding-bottom: 15px;
+
+
+
+		border-bottom: 3px solid #DCDCDC;
+
+
+
+		margin: 0 0 15px !important;
+
+
+
+		font-size: 28px;
+
+
+
+		line-height: 28px;
+
+
+
+		color: #4E4E4E !important;
+
+
+
+		font-weight: normal;
+
+
+
+	}
+
+
+
+
+
+
+
+	.info{
+
+
+
+		clear:both;
+
+
+
+		display:block;
+
+
+
+		font-size:15px;
+
+
+
+		line-height:15px;
+
+
+
+		color: #4E4E4E;
+
+
+
+		margin:30px 0 0;
+
+
+
+		font-weight:normal;
+
+
+
+	}
+
+
+
+
+
+
+
+	.contributionform span{
+
+
+
+		display:block;
+
+
+
+	}
+
+
+
+
+
+
+
+	.contributionform a{
+
+
+
+		color: #0096DB !important;
+
+
+
+		text-decoration:none !important;
+
+
+
+	}
+
+
+
+
+
+
+
+	.contributionform a:hover{
+
+
+
+		color: #CD3A18 !important;
+
+
+
+	}
+
+
+
+
+
+
+
+	.contributionform h4{
+
+
+
+		margin: 0 0 15px;
+
+
+
+		font-size: 18px;
+
+
+
+		line-height:18px;
+
+
+
+		color: #4E4E4E;
+
+
+
+		font-weight:normal;
+
+
+
+	}
+
+
+
+
+
+
+
+	.contributionform input.theamount{
+
+
+
+		color: #4E4E4E;
+
+
+
+		font-size:15px;
+
+
+
+		line-height:15px;
+
+
+
+		font-weight:bold;
+
+
+
+		display:inline-block;
+
+
+
+		margin:0 10px 0 0;
+
+
+
+		padding:20px;
+
+
+
+		border:none;
+
+
+
+		text-align:center;
+
+
+
+		min-width:81px;
+
+
+
+		cursor:pointer;
+
+
+
+
+
+
+
+		-webkit-border-radius: 5px;
+
+
+
+		-moz-border-radius: 5px;
+
+
+
+		border-radius: 5px;
+
+
+
+	}
+
+
+
+
+
+
+
+	.contributionform input.theamount:hover, .contributionform input.amount-active{
+
+
+
+		 background: #25B036;
+
+
+
+		 color:#fff;
+
+
+
+	}
+
+
+
+
+
+
+
+	.link-details{
+
+
+
+		padding:20px 0 0;
+
+
+
+	}
+
+
+
+
+
+
+
+	#can-fundraising-area-facebook-for-organizers-webinar{
+
+
+
+		display:none;
+
+
+
+	}
+
+.tooltip_templates { display: none; }
+
+.page-fix {
+	height: 200px !important;
+}
+.page-fix .social_moment {
+	top: 65px !important;
+}
+
+/* end */
+
+
+
+
+
+
+
+@media screen and (max-width:1200px){
+
+
+
+	.banner_title{font-size:40px}
+
+
+
+	.product_wraper ul li{width:47%}
+
+
+
+	.footer_link{float:left;margin-right:30px;width:24%}
+
+
+
+	#access li{padding:5px 2%;width:16%}
+
+
+
+	#mobile-nav{display:none}
+
+
+
+	.testimonial-page .box1 {width: 100%;min-height: 0;}
+
+
+
+	.testimonial-page .box2 {min-height: 0;}
+
+
+
+	.banner_title {
+
+	    padding: 120px 40px 20px;
+
+	}
+
+	.product_wraper ul li .entry-content{max-height:325px;min-height:325px}
+
+
+}
+
+
+
+@media screen and (max-width:1024px){
+
+
+
+.footer_social,.footer_social_row{text-align:center}
+
+
+
+.banner_title{font-size:40px}
+
+
+
+.product_wraper ul li{width:47%}
+
+
+
+#mobile-nav{display:none}
+
+
+
+#access li{padding:5px 2% 5px 28px;width:25%}
+
+
+
+.footer_social{float:right;width:100%}
+
+
+
+.footer_link{float:left;margin-right:27px;width:29%}
+
+
+
+#secondary .widget_recive_update input[type=email]{width:100%;margin-bottom:10px}
+
+
+
+#secondary .widget_recive_update input[type=zipcode]{width:68%}
+
+
+
+.widget_recive_update input[type=button]{width:28%}
+
+.product_wraper ul li .entry-content{max-height:350px;min-height:350px}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:800px){
+
+
+
+	.footer_social,.footer_social_row{text-align:center}
+
+
+
+	.footer_social{float:right; width:100%;}
+
+
+
+.footer_link{float:left;margin-right:27px;width:29%}
+
+
+
+h1.widget-title{color:#9c0100;font-family:"Montserrat",sans-serif;font-size:18px}
+
+
+
+#secondary .widget_recive_update input[type=zipcode]{width:60%}
+
+
+
+.widget_recive_update input[type=button]{width:36%}
+
+
+
+.alignright{display:inline;float:right;width:100%!important;margin-bottom:20px}
+
+.product_wraper ul li .entry-content{max-height:450px;min-height:450px}
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+
+
+
+.footer_social,.footer_social_row{text-align:center}
+
+
+
+#mobile-nav{display:block}
+
+
+
+#nav-main{display:none}
+
+
+
+.show-menu{display:block !important;}
+
+
+
+.banner_title {
+
+    padding: 60px 40px 20px;
+
+}
+
+
+
+.innerbanner .social_moment {
+
+    top: 80px;
+
+}
+
+
+
+.main_menu{background:#000;float:left;left:0;position:absolute;top:60px;width:100%}
+
+
+
+.main_menu ul li{line-height:40px;width:100%;position:relative}
+
+
+
+.main_menu ul li a:hover,.main_menu ul li.current-menu-item a{background:rgba(255,255,255,.5)}
+
+
+
+ul#menu-top-menu ul{top:2em;width:100%!important;left:0}
+
+
+
+.leftside,.rightside{padding:0 2%;width:94%}
+
+
+
+li.menu-item-40 ul{left:0!important}
+
+
+
+.main_menu ul ul.sub-menu li{width:100%}
+
+
+
+.footer_social{float:right;width:100%}
+
+
+
+.footer_link{float:left;margin-right:27px;width:45%}
+
+
+
+.home .product_wraper ul li .entry-content{max-height:400px;min-height:auto}
+
+
+
+#access li{padding:0 0 0 28px;width:43%}
+
+
+
+.blog .entry-content>p{font-size:19px!important}
+
+
+
+.home .product_wraper ul li p{line-height:32px}
+
+
+
+.home .product_wraper ul li{width:47%;height:530px}
+
+
+
+.page-id-10 #div1{float:left;width:100%}
+
+
+
+.page-id-10 #div2{float:right;width:100%}
+
+
+
+input#s,input[type=email],input[type=text],input[type=tel],textarea{border:1px solid #ccc;box-sizing:border-box;margin:0 1em 0 0;padding:7px 10px;width:100%}
+
+
+
+input[type=submit]{padding:6px 15px;border:1px solid #ccc;background:#C33;color:#fff;font-size:16px;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;-khtml-border-radius:4px;cursor:pointer}
+
+
+
+input[type=submit]:hover{background:0 0;color:#fff;text-decoration:none}
+
+
+
+.page-template-default .type-page p{font-family:"Montserrat",sans-serif;font-size:16px;font-weight:300;line-height:20px}
+
+
+
+.page-id-10 p img{width:auto}
+
+
+
+.recive_update {
+
+    float: none;
+
+    margin: 0 auto;
+
+    clear: both;
+
+}
+
+.videoWrapperDiv {
+
+	width: 100%;
+
+	float: left;
+
+}
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:640px){#mobile-nav{display:block}
+
+
+
+#nav-main{display:none}.social_moment h2{font-size:21px}
+
+.social_moment {
+
+    padding: 5px 20px;
+
+}
+
+
+
+.social_moment p{font-size:17px}
+
+
+
+#access li{padding:0 0 0 28px;width:94%}.leftside,.rightside{padding:0 2%;width:94%}
+
+
+
+.product_wraper ul li h4 a{font-size:21px;line-height:24px}
+
+
+
+.blog .entry-content>p{font-size:16px!important;line-height:25px}
+
+
+
+.product_wraper ul li p{line-height:32px}
+
+
+
+.page-template-default .type-page h1, .type-page h1 {font-size:30px!important}
+
+.singlebanner .social_moment h2 {
+	font-size: 15px;
+	margin-top: 0;
+}
+.top-row {
+	width: 100%;
+}
+
+.alignright{display:inline;float:right;width:100%!important}
+
+.videoWrapperDiv {
+
+	width: 100%;
+
+	float: left;
+
+}
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:480px){#nav-main{display:none}
+
+
+
+.banner_title{font-size:32px}.product_wraper ul li{width:98%!important;height:auto}.product_wraper ul li h4 a{font-size:26px;line-height:32px}.blog .entry-content>p{font-size:19px!important}
+
+
+
+.product_wraper ul li p{line-height:32px}.footer_link{width:100%;font-size:13px}.footer_link ul li a{font-size:16px}.social_moment h2{font-size:20px}.alignright{display:inline;float:right;width:100%}
+
+
+
+.videoWrapperDiv {
+
+	width: 100%;
+
+	float: left;
+
+}
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:360px){#mobile-nav{display:block}
+
+
+
+#nav-main{display:none}
+
+
+
+.banner_title{font-size:21px}
+
+
+
+.social_moment p{display:inline-block;float:left;font-size:15px}
+
+
+
+.social_moment h2{font-size:19px;float:left;width:100%}
+
+
+
+.innerbanner .social_moment h2 {
+
+    margin-top: 0;
+
+}
+.correction {
+	height: 270px !important;
+}
+.videoWrapperDiv {
+
+	width: 100%;
+
+	float: left;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* COURSES */
+
+
+
+#course h3 {
+
+
+
+	padding: 0px !important;
+
+
+
+	margin: 0px !important;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.course .entry-meta {
+
+
+
+display: none !important;
+
+
+
+}
+
+
+
+
+
+
+
+.course .entry-header {
+
+
+
+margin: 0 !important;
+
+
+
+padding: 0 !important;
+
+
+
+}
+
+
+
+
+
+
+
+.course .header{
+
+
+
+padding: 0px !important;
+
+
+
+}
+
+
+
+
+
+
+
+button.apply-button.enroll {
+
+
+
+	text-align:left;
+
+
+
+	float: left;
+
+
+
+	font-size:20px;
+
+
+
+        font-weight:bold;
+
+
+
+        padding:10px 50px;
+
+
+
+}
+
+
+
+
+
+
+
+button.apply-button.signup {
+
+
+
+	text-align:left;
+
+
+
+	float: left;
+
+
+
+	font-size:20px;
+
+
+
+        font-weight:bold;
+
+
+
+        padding:10px 50px;
+
+
+
+}
+
+
+
+
+
+
+
+.course-thumbnail {
+
+
+
+	width: 150px;
+
+
+
+	height: 150px;
+
+
+
+	display: none !important;
+
+
+
+}
+
+
+
+.instructor-block {
+
+
+
+display: none !important;
+
+
+
+}
+
+
+
+
+
+
+
+.course-dates, .enrollment-dates, .course-enrollment-type, .course-language {
+
+
+
+display: none !important;
+
+
+
+}
+
+
+
+
+
+
+
+.product_wrapper .divider{
+
+
+
+display: none !important;
+
+
+
+}
+
+
+
+.instructor-list {
+
+
+
+	display: none;
+
+
+
+}
+
+
+
+
+
+
+
+h3.course-title {
+
+
+
+	margin: 0px !important;
+
+
+
+	padding: 0px !important;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.page-id-0 #sidebar_wrap_left {
+
+
+
+    display: none !important;
+
+
+
+}
+
+
+
+
+
+
+
+.page-id-0 .widget-area {
+
+
+
+ display: none !important;
+
+
+
+}
+
+
+
+.scroll-text {
+
+
+
+overflow:auto !important;
+
+
+
+}
+
+
+
+
+
+
+
+.dashboard-random-courses, .dashboard-random-courses-list, .apply-links.course-action-links, .course-list-box-left.enroll-box-left  {
+
+
+
+display: none !important;
+
+
+
+}
+
+
+
+
+
+
+
+.course-list-box-left.enroll-box-left {
+
+
+
+width: 20px !important;
+
+
+
+}
+
+
+
+.course-list-box-right.enroll-box-right {
+
+
+
+float:left !important;
+
+
+
+}
+
+
+
+
+
+
+
+.student-settings input[type="text"], .student-settings input[type="password"] {
+
+
+
+    width: 95%;
+
+
+
+    border: 1px solid #ccc;
+
+
+
+    box-sizing: border-box;
+
+
+
+    margin: 0 1em 0 0;
+
+
+
+    padding: 7px 10px;
+
+
+
+    font-size: 1em;
+
+
+
+}
+
+
+
+
+
+
+
+.apply-button.apply-button-details, .apply-button.apply-button-enrolled  {
+
+
+
+text-align: left;
+
+
+
+float: left;
+
+
+
+font-size: 20px;
+
+
+
+font-weight: bold;
+
+
+
+padding: 10px 50px;
+
+
+
+}
+
+
+
+
+
+
+
+.submenu-main-container {
+
+
+
+display: none;
+
+
+
+}

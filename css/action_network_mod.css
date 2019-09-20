@@ -1,0 +1,82 @@
+/*Action network forms mod*/
+
+/*First we hide a bunch of stuff*/
+.widget_recive_update #form-first_name,
+.widget_recive_update #form-last_name,
+.widget_recive_update #form-country,
+.widget_recive_update #can_embed_form_inner h2,
+.widget_recive_update #can_embed_form_inner h4,
+.widget_recive_update #form-zip_code,
+.widget_recive_update #d_sharing,
+.widget_recive_update #action_info,
+.widget_recive_update #logo_wrap,
+.country_wrap {
+  display: none !important;
+}
+
+/*Clear floats*/
+.widget_recive_update #can_embed_form_inner #form_col1,
+.widget_recive_update #can_embed_form_inner #form_col2 {
+  float: none !important;
+  width: 100% !important;
+  text-align: center !important;
+}
+
+.new_answer {
+  text-align: center !important;
+}
+
+/*Transparent background*/
+.widget_recive_update #can_embed_form {
+  background-color: rgba(0, 0, 0, 0.0) !important;
+  border: none !important;
+}
+
+.widget_recive_update #can_embed_form #action_welcome_message #action_welcome_message_inner {
+  max-width: 250px !important;
+  margin: auto !important;
+}
+
+.widget_recive_update #can_embed_form input[type="submit"] {
+  background-color: #af2000 !important;
+  margin-bottom: 0px !important;
+  font-family: "Permanent Marker", cursive !important;
+  min-width: 250px !important;
+  font-size: 16px !important;
+  margin: auto !important;
+}
+
+.widget_recive_update #form-email {
+  max-width: 250px !important;
+  margin-bottom: 15px !important;
+}
+
+.widget_recive_update_home {
+  margin-top: -20px;
+}
+
+/*Modding the sidebar signup form*/
+.sidebarBorder #can_embed_form.can_float #form_col1 {
+  float: none !important;
+  width: 100% !important;
+}
+
+.sidebarBorder #can_embed_form.can_float #form_col2 {
+  float: none !important;
+  width: 100% !important;
+}
+
+.sidebarBorder #can_embed_form #form-email {
+  float: none !important;
+  width: 100% !important;
+}
+
+.sidebarBorder #can_embed_form #form-zip_code {
+  float: none !important;
+  width: 50% !important;
+  display: inline !important;
+}
+
+.sidebarBorder #form_col1 label {
+  display: none !important;
+}
